@@ -37,14 +37,14 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
-	pika: {
+	'https://balupton.com/pika': {
 		name: 'Pika',
 		url: 'https://www.pika.dev/code?ref=R7OXG7REoO2TDfs2jgxX',
 		description: 'Use Pika for all your frontend web development',
 		color: '#4da7ff',
 		tags: ['referral']
 	},
-	krisp: {
+	'https://balupton.com/krisp': {
 		name: 'Krisp',
 		url: 'https://ref.krisp.ai/u/u6e0c886b7',
 		description: 'Use Krisp to silence speaker and microphone background noise',
@@ -403,7 +403,7 @@ const links: Links = {
 		tags: ['referral']
 	},
 	'https://balupton.com/xero': 'https://balupton.com/xeroshoes',
-	earthrunners: {
+	'https://balupton.com/earthrunners': {
 		name: 'Earth Runners',
 		url: 'http://earthrunners.com?rfsn=763305.e8694',
 		description: 'Use Earth Runners as your minimalist running sandals',
