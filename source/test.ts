@@ -39,7 +39,7 @@ kava.suite('links', function(suite, test) {
 			console.warn(new Error('auth is missing'))
 			return done()
 		}
-		const setter = `https://editor.bevry.workers.dev/setter?auth=${auth}&key=redirects`
+		const setter = `https://editor.bevry.workers.dev/setter?auth=${auth}&key=links`
 		const value = JSON.stringify(links)
 		fetch(setter, {
 			method: 'PUT',
