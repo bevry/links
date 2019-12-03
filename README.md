@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>links</h1>
+<h1>@bevry/links</h1>
 
 <!-- /TITLE -->
 
@@ -8,10 +8,6 @@
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.com/bevry/links" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/links/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/links" title="View this project on NPM"><img src="https://img.shields.io/npm/v/links.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/links" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/links.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/bevry/links" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/links.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/links#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/links.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
@@ -38,17 +34,17 @@ Collection of Links for Redirection on the Bevry websites
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
-<li>Install: <code>npm install --save links</code></li>
-<li>Require: <code>require('links')</code></li>
+<li>Install: <code>npm install --save @bevry/links</code></li>
+<li>Require: <code>require('@bevry/links')</code></li>
 </ul>
 
 <h3><a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>links/source/index.ts</code> is typescript source code with import for modules</li>
-<li><code>links</code> aliases <code>links/edition-node-12/index.js</code></li>
-<li><code>links/edition-node-12/index.js</code> is typescript compiled for node.js with require for modules</li></ul>
+<ul><li><code>@bevry/links/source/index.ts</code> is typescript source code with import for modules</li>
+<li><code>@bevry/links</code> aliases <code>@bevry/links/edition-node-12/index.js</code></li>
+<li><code>@bevry/links/edition-node-12/index.js</code> is typescript compiled for node.js with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
@@ -98,11 +94,25 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/links/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/links">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/links/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
 
 
-<!--LICENSE -->
+<!-- LICENSE/ -->
+
+<h2>License</h2>
+
+Unless stated otherwise all works are:
+
+<ul><li>Copyright &copy; 2019+ Benjamin Lupton</li></ul>
+
+and licensed under:
+
+<ul><li><a href="http://spdx.org/licenses/MIT.html">MIT License</a></li></ul>
+
+<!-- /LICENSE -->
