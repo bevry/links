@@ -7,7 +7,7 @@ type Tag =
 	| 'donate'
 	| string
 
-interface Link {
+export interface Link {
 	url: string
 	name?: string
 	description?: string

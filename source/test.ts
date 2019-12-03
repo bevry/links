@@ -1,24 +1,38 @@
+/* eslint no-cond-assign:0 */
 import kava from 'kava'
-import links from './index.js'
+import links, { Link } from './index.js'
 import { fetch } from 'fetch-h2'
+
+function getURL(value: Link | string): string {
+	if (typeof value === 'string') {
+		return value
+	} else {
+		return value.url
+	}
+}
+function getLink(value: Link | string): Link | string {
+	return links[getURL(value)]
+}
 
 kava.suite('links', function(suite, test) {
 	test('all aliases are valid', function() {
 		Object.keys(links).forEach(function(key) {
-			const value = links[key]
-			let alias = ''
-			if (typeof value === 'string') {
-				if (/^[a-zA-Z-]+$/.test(value)) {
-					alias = value
-				}
-			} else if (/^[a-zA-Z-]+$/.test(value.url)) {
-				alias = value.url
+			let value = links[key],
+				destination
+			// recurse
+			while ((destination = getLink(value))) {
+				value = destination
 			}
-			if (alias && !links[alias]) {
-				throw new Error(`[${key}] has missing alias of [${alias}]`)
+			// check
+			const url = getURL(value)
+			if (/^[a-zA-Z-]+$/.test(url)) {
+				throw new Error(`[${key}] results in invalid url [${url}]`)
 			}
+			// update
+			links[key] = value
 		})
 	})
+
 	test('saving to deployment', function(done) {
 		const auth = process.env.SETTER_AUTH
 		if (!auth) {
