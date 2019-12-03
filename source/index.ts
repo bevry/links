@@ -37,6 +37,13 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	pika: {
+		name: 'Pika',
+		url: 'https://www.pika.dev/code?ref=R7OXG7REoO2TDfs2jgxX',
+		description: 'Use Pika for all your frontend web development',
+		color: '#4da7ff',
+		tags: ['referral']
+	},
 	krisp: {
 		name: 'Krisp',
 		url: 'https://ref.krisp.ai/u/u6e0c886b7',
