@@ -23,10 +23,13 @@ kava.suite('links', function(suite, test) {
 			while ((destination = getLink(value))) {
 				value = destination
 			}
+			// convert
+			if (typeof value === 'string') {
+				value = { url: value }
+			}
 			// check
-			const url = getURL(value)
-			if (/^[a-zA-Z-]+$/.test(url)) {
-				throw new Error(`[${key}] results in invalid url [${url}]`)
+			if (!value.url || /^[a-zA-Z-]+$/.test(value.url)) {
+				throw new Error(`[${key}] results in invalid url [${value.url}]`)
 			}
 			// update
 			links[key] = value
