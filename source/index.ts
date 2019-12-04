@@ -37,6 +37,13 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	'https://balupton.com/coda': {
+		name: 'Coda',
+		url: 'https://coda.io/?r=CKtcbWm3QpGD18vwdwDsmw',
+		description: 'Use Coda for all your advanced taking',
+		color: '#f46a54',
+		tags: ['referral']
+	},
 	'https://balupton.com/notion': {
 		name: 'Notion',
 		url: 'https://www.notion.so/?r=60933d0600364189832f302b54cf49b0',
