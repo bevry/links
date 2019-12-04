@@ -37,6 +37,13 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	'https://balupton.com/notion': {
+		name: 'Notion',
+		url: 'https://www.notion.so/?r=60933d0600364189832f302b54cf49b0',
+		description: 'Use Notion for all your note taking',
+		color: 'rgb(55, 53, 47)',
+		tags: ['referral']
+	},
 	'https://balupton.com/pika': {
 		name: 'Pika',
 		url: 'https://www.pika.dev/code?ref=R7OXG7REoO2TDfs2jgxX',
