@@ -37,6 +37,13 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	'https://balupton.com/powershop': {
+		name: 'Powershop',
+		url: 'https://secure.powershop.com.au/r/heatherl-R8MWLKE?p=556',
+		description: 'Use Powership as your Australian clean energy provider',
+		color: '#fa0e6a',
+		tags: ['referral']
+	},
 	'https://balupton.com/coda': {
 		name: 'Coda',
 		url: 'https://coda.io/?r=CKtcbWm3QpGD18vwdwDsmw',
