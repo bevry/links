@@ -262,6 +262,13 @@ const links: Links = {
 		color: '#F56945',
 		tags: ['referral']
 	},
+	'https://balupton.com/argent/invite': {
+		name: 'Argent',
+		url: 'https://argent.link/MVICN89IZX',
+		description: 'Use Argent to send, receive, and invest in cryptocurrency',
+		color: '#f36a3d',
+		tags: ['referral']
+	},
 	'https://balupton.com/coinjar': {
 		name: 'CoinJar',
 		url: 'https://www.coinjar.com/_ref/@balupton',
