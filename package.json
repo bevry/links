@@ -102,7 +102,7 @@
     "eslint-config-bevry": "^2.2.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "fetch-h2": "^2.2.1",
+    "fetch-h2": "^2.2.2",
     "kava": "^4.3.0",
     "prettier": "^1.19.1",
     "projectz": "^1.15.0",
