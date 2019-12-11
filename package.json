@@ -108,7 +108,7 @@
     "projectz": "^1.15.0",
     "surge": "^0.21.3",
     "typedoc": "^0.15.3",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
