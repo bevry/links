@@ -8,7 +8,12 @@
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.com/bevry/links" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/bevry/links/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@bevry/links" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@bevry/links.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@bevry/links" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@bevry/links.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/bevry/links" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/links.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/links#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/links.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
+<span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span>
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-liberapay"><a href="https://liberapay.com/bevry" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
@@ -43,8 +48,10 @@ Collection of Links for Redirection on the Bevry websites
 <p>This package is published with the following editions:</p>
 
 <ul><li><code>@bevry/links/source/index.ts</code> is typescript source code with import for modules</li>
-<li><code>@bevry/links</code> aliases <code>@bevry/links/edition-node-12/index.js</code></li>
-<li><code>@bevry/links/edition-node-12/index.js</code> is typescript compiled for node.js with require for modules</li></ul>
+<li><code>@bevry/links</code> aliases <code>@bevry/links/edition-esnext/index.js</code></li>
+<li><code>@bevry/links/edition-esnext/index.js</code> is typescript compiled against <a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a> for Node.js with require for modules</li></ul>
+
+<p>Environments older than Node.js v12 may need <a href="https://babeljs.io/docs/usage/polyfill/" title="A polyfill that emulates missing ECMAScript environment features">Babel's Polyfill</a> or something similar.</p>
 
 <!-- /INSTALL -->
 
@@ -83,6 +90,7 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
+<span class="badge-githubsponsors"><a href="https://github.com/sponsors/balupton" title="Donate to this project using GitHub Sponsors"><img src="https://img.shields.io/badge/github-donate-yellow.svg" alt="GitHub Sponsors donate button" /></a></span>
 <span class="badge-patreon"><a href="https://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 <span class="badge-flattr"><a href="https://flattr.com/profile/balupton" title="Donate to this project using Flattr"><img src="https://img.shields.io/badge/flattr-donate-yellow.svg" alt="Flattr donate button" /></a></span>
 <span class="badge-liberapay"><a href="https://liberapay.com/bevry" title="Donate to this project using Liberapay"><img src="https://img.shields.io/badge/liberapay-donate-yellow.svg" alt="Liberapay donate button" /></a></span>
@@ -96,7 +104,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/links/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/links">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/links/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/links">view contributions</a></li>
+<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/links/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/links">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/links/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
