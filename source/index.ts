@@ -764,6 +764,14 @@ const links: Links = {
 		color: '#db5344',
 		tags: ['referral']
 	},
+	'https://balupton.com/workflowy': {
+		name: 'Workflowy',
+		url: 'https://workflowy.com/invite/111143f5.lnx',
+		description:
+			'Use Workflowy to organise your life using nested bullet points',
+		color: '#5389af',
+		tags: ['referral']
+	},
 	'https://balupton.com/zapier': {
 		name: 'Zapier',
 		url: 'http://zpr.io/AhX',
