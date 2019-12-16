@@ -2175,11 +2175,11 @@ const links: Links = {
 		url: 'https://learn.bevry.me/install-node',
 		redirect: 'permanent'
 	},
-	'https://learn.bevry.me//install/node': {
+	'https://learn.bevry.me/install/node': {
 		url: 'https://learn.bevry.me/install-node',
 		redirect: 'permanent'
 	},
-	'https://learn.bevry.me//node/install': {
+	'https://learn.bevry.me/node/install': {
 		url: 'https://learn.bevry.me/install-node',
 		redirect: 'permanent'
 	},
