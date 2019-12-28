@@ -37,6 +37,12 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	'https://balupton.com/gitkraken': {
+		name: 'GitKraken',
+		url: 'https://www.gitkraken.com/invite/56Cj9yn1',
+		color: '#20968b',
+		tags: ['referral']
+	},
 	'https://balupton.com/powershop': {
 		name: 'Powershop',
 		url: 'https://secure.powershop.com.au/r/heatherl-R8MWLKE?p=556',
