@@ -40,6 +40,7 @@ const links: Links = {
 	'https://balupton.com/gitkraken': {
 		name: 'GitKraken',
 		url: 'https://www.gitkraken.com/invite/56Cj9yn1',
+		description: 'Use GitKraken as your Git desktop client',
 		color: '#20968b',
 		tags: ['referral']
 	},
