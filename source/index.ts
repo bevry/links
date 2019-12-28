@@ -87,6 +87,7 @@ const links: Links = {
 		color: '#3AB03E',
 		tags: ['referral']
 	},
+	'https://balupton.com/civic': 'https://balupton.com/civicwallet',
 	'https://balupton.com/sablier': {
 		name: 'Sablier',
 		url: 'https://sablier.app/r?=ft1gfikc',
