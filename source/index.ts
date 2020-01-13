@@ -2139,6 +2139,8 @@ const links: Links = {
 	//  bevry.me / payment
 	'https://bevry.me/fund':
 		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
+	'https://bevry.me/funding':
+		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
 	'https://bevry.me/donate':
 		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
 	'https://bevry.me/payment':
