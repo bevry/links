@@ -83,7 +83,7 @@ const links: Links = {
 		name: 'Helium',
 		url: 'http://fbuy.me/nsesX',
 		description:
-			'Use Helium to earn money by creatin a global worldwide internet hotspot',
+			'Use Helium to earn money by creating a global worldwide internet hotspot',
 		color: '#be73ff',
 		tags: ['referral']
 	},
