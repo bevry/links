@@ -179,8 +179,18 @@ const links: Links = {
 		url: 'https://www.safetywing.com/a/24733581',
 		description: 'Use SafetyWing for worldwide travel insurance',
 		color: '#58c5c7',
-		tags: ['referral']
+		tags: ['referral', 'best', 'insurance', 'travel', 'health', 'nomad', 'family']
 	},
+	'https://balupton.com/travel-insurance': 'https://balupton.com/safetywing',
+	'https://balupton.com/remotehealth': {
+		name: 'SafetyWing Remote Health',
+		url: 'https://safetywing.com/remote-health/a/24733581',
+		description: 'Use SafetyWing Remote Health for your employer to provide international health care for your remote team',
+		color: 'rgb(86, 86, 194)',
+		tags: ['referral', 'best', 'insurance', 'travel', 'healthcare', 'health', 'nomad', 'team']
+	},
+	'https://balupton.com/remote-health': 'https://balupton.com/remotehealth',
+	'https://balupton.com/travel-healthcare': 'https://balupton.com/remotehealth',
 	'https://balupton.com/minds': {
 		name: 'Minds',
 		url: 'https://www.minds.com/balupton?referrer=balupton',
@@ -528,6 +538,7 @@ const links: Links = {
 		color: '#221b34',
 		tags: ['referral']
 	},
+	'https://balupton.com/acorns': 'https://balupton.com/raiz',
 	'https://balupton.com/n26': {
 		name: 'N26 Bank',
 		url: 'https://n26.com/r/benjamil6310',
@@ -576,6 +587,9 @@ const links: Links = {
 		color: '#223049',
 		tags: ['referral']
 	},
+	'https://balupton.com/travel-banking': 'https://balupton.com/transferwiseborderless',
+	'https://balupton.com/international-banking': 'https://balupton.com/transferwiseborderless',
+	'https://balupton.com/transferwise-borderless': 'https://balupton.com/transferwiseborderless',
 	'https://balupton.com/transferwiseborderless-au': {
 		name: 'TransferWise Borderless',
 		url: 'https://prf.hn/l/7ABLz4r',
@@ -670,6 +684,7 @@ const links: Links = {
 		color: '#2a9ff8',
 		tags: ['referral']
 	},
+	'https://balupton.com/quoinex': 'https://balupton.com/liquid',
 	'https://balupton.com/surfeasy': {
 		name: 'SurfEasy',
 		url: 'https://srfez.com/NF6AYREKBA',
@@ -2058,8 +2073,6 @@ const links: Links = {
 	gratipay: 'liberapay',
 	gittip: 'liberapay',
 	'https://balupton.com/circleinternet': 'https://balupton.com/circlemedia',
-	'https://balupton.com/quoinex': 'https://balupton.com/liquid',
-	'https://balupton.com/acorns': 'https://balupton.com/raiz',
 	'https://balupton.com/trainings': 'https://balupton.com/speakerrate',
 	'https://balupton.com/trader': 'https://balupton.com/trading',
 	'https://balupton.com/blogs/dev?description=webct_session_stealer_exploit':
