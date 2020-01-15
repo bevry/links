@@ -182,6 +182,7 @@ const links: Links = {
 		tags: ['referral', 'best', 'insurance', 'travel', 'health', 'nomad', 'family']
 	},
 	'https://balupton.com/travel-insurance': 'https://balupton.com/safetywing',
+	'https://bevry.me/insurance': 'https://balupton.com/safetywing',
 	'https://balupton.com/remotehealth': {
 		name: 'SafetyWing Remote Health',
 		url: 'https://safetywing.com/remote-health/a/24733581',
