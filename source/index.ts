@@ -2141,7 +2141,7 @@ const links: Links = {
 	},
 	'https://bevry.me/meetings': 'https://bevry.me/meet',
 	'https://bevry.me/discord': 'https://discord.gg/DuBp9Jw',
-	'https://bevry.me/discord/dev': 'https://discord.gg/HuuRHc',
+	'https://bevry.me/discord/dev': 'https://discord.gg/AGVSmdg',
 	'https://bevry.me/livestream': 'https://discord.gg/M8ERgNV',
 	'https://bevry.me/source': 'https://github.com/bevry/website',
 	jbpcommunity: 'https://bevry.me',
