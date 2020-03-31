@@ -37,6 +37,16 @@ const links: Links = {
 	},
 
 	// referrals / affiliates
+	'https://balupton.com/recommendations': {
+		name: 'Recommendations',
+		url: 'https://coda.io/@balupton/gear',
+		description: 'Use my recommendations list to discover apps, services, equipment, and gear that you should be using',
+		color: '#000',
+		tags: ['referral', 'recommendation']
+	},
+	'https://balupton.com/recommends': 'https://balupton.com/recommendations',
+	'https://balupton.com/recommend': 'https://balupton.com/recommendations',
+	'https://balupton.com/gear': 'https://balupton.com/recommendations',
 	'https://balupton.com/qantas-wellbeing': {
 		name: 'Qantas Wellbeing',
 		url: 'https://go.qantaswellbeing.com/a/key_live_nel0NOrSX1UEasHKwDDwVeghBqfKsZx2?%24identity_id=751804620959329373&channel=Apple%20Notes&feature=invite&type=0&duration=0&source=ios&data=eyIkY2Fub25pY2FsX2lkZW50aWZpZXIiOiJpbnZpdGUtYXF1YWludGFuY2UiLCJnZW5lcmF0ZWRMaW5rSUQiOiIxM0E0NzFDNy0wMzdFLTQ2OUEtOTVGQi04MDZBRTUwQ0U1MDAiLCIkb2dfZGVzY3JpcHRpb24iOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJwdWJsaWNNZW1iZXJJRCI6ImZmODA4MDgxNzA1MDhlZjQwMTcwN2NlN2YyZDExYjJhIiwiJGVtYWlsX3N1YmplY3QiOiJKb2luIEJlbmphbWluIEEgTHVwdG9uIG9uIFFhbnRhcyBXZWxsYmVpbmciLCIkb2dfdGl0bGUiOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJnZW5lcmF0ZWRCeVB1YmxpY01lbWJlcklEIjoiZmY4MDgwODE3MDUwOGVmNDAxNzA3Y2U3ZjJkMTFiMmEiLCJnZW5lcmF0ZWRUaW1lc3RhbXAiOiIxNTgyOTQ0OTE5LjA4NzU4MyIsInJlZmVycmFsQ29kZSI6Im83d3VjejEifQ%3D%3D',
