@@ -47,12 +47,19 @@ const links: Links = {
 	'https://balupton.com/recommends': 'https://balupton.com/recommendations',
 	'https://balupton.com/recommend': 'https://balupton.com/recommendations',
 	'https://balupton.com/gear': 'https://balupton.com/recommendations',
+	'https://balupton.com/streamlabs': {
+		name: 'Streamlabs',
+		url: 'https://streamlabs.com/editor?promo=balupton-b5ee-10',
+		description: 'Use Streamlabs as your all-in-one livestreaming solution',
+		color: '#31c3a2',
+		tags: ['referral', 'recommendation']
+	},
 	'https://balupton.com/qantas-wellbeing': {
 		name: 'Qantas Wellbeing',
 		url: 'https://go.qantaswellbeing.com/a/key_live_nel0NOrSX1UEasHKwDDwVeghBqfKsZx2?%24identity_id=751804620959329373&channel=Apple%20Notes&feature=invite&type=0&duration=0&source=ios&data=eyIkY2Fub25pY2FsX2lkZW50aWZpZXIiOiJpbnZpdGUtYXF1YWludGFuY2UiLCJnZW5lcmF0ZWRMaW5rSUQiOiIxM0E0NzFDNy0wMzdFLTQ2OUEtOTVGQi04MDZBRTUwQ0U1MDAiLCIkb2dfZGVzY3JpcHRpb24iOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJwdWJsaWNNZW1iZXJJRCI6ImZmODA4MDgxNzA1MDhlZjQwMTcwN2NlN2YyZDExYjJhIiwiJGVtYWlsX3N1YmplY3QiOiJKb2luIEJlbmphbWluIEEgTHVwdG9uIG9uIFFhbnRhcyBXZWxsYmVpbmciLCIkb2dfdGl0bGUiOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJnZW5lcmF0ZWRCeVB1YmxpY01lbWJlcklEIjoiZmY4MDgwODE3MDUwOGVmNDAxNzA3Y2U3ZjJkMTFiMmEiLCJnZW5lcmF0ZWRUaW1lc3RhbXAiOiIxNTgyOTQ0OTE5LjA4NzU4MyIsInJlZmVycmFsQ29kZSI6Im83d3VjejEifQ%3D%3D',
 		description: 'Use Qantas Wellbeing to earn 150 Qantas Points for being active',
 		color: '#e40000',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/gitkraken': {
 		name: 'GitKraken',
@@ -66,14 +73,14 @@ const links: Links = {
 		url: 'https://secure.powershop.com.au/r/heatherl-R8MWLKE?p=556',
 		description: 'Use Powership as your Australian clean energy provider',
 		color: '#fa0e6a',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/coda': {
 		name: 'Coda',
 		url: 'https://coda.io/?r=CKtcbWm3QpGD18vwdwDsmw',
 		description: 'Use Coda for all your advanced taking',
 		color: '#f46a54',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/notion': {
 		name: 'Notion',
@@ -94,7 +101,7 @@ const links: Links = {
 		url: 'https://ref.krisp.ai/u/u6e0c886b7',
 		description: 'Use Krisp to silence speaker and microphone background noise',
 		color: '#FF7E61',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/helium': {
 		name: 'Helium',
@@ -174,7 +181,7 @@ const links: Links = {
 		description:
 			'Use Gunnar Glasses to work on the computer all day without eyestrain',
 		color: '#d03238',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/setapp': {
 		name: 'Setapp',
@@ -182,7 +189,7 @@ const links: Links = {
 		description:
 			'Use Setapp to gain access to dozens of high quality mac apps for a low monthly price',
 		color: '#00024f',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/airtable': {
 		name: 'Airtable',
@@ -196,7 +203,7 @@ const links: Links = {
 		url: 'https://www.safetywing.com/a/24733581',
 		description: 'Use SafetyWing for worldwide travel insurance',
 		color: '#58c5c7',
-		tags: ['referral', 'best', 'insurance', 'travel', 'health', 'nomad', 'family']
+		tags: ['referral', 'recommendation', 'best', 'insurance', 'travel', 'health', 'nomad', 'family']
 	},
 	'https://balupton.com/travel-insurance': 'https://balupton.com/safetywing',
 	'https://bevry.me/insurance': 'https://balupton.com/safetywing',
@@ -205,7 +212,7 @@ const links: Links = {
 		url: 'https://safetywing.com/remote-health/a/24733581',
 		description: 'Use SafetyWing Remote Health for your employer to provide international health care for your remote team',
 		color: 'rgb(86, 86, 194)',
-		tags: ['referral', 'best', 'insurance', 'travel', 'healthcare', 'health', 'nomad', 'team']
+		tags: ['referral', 'recommendation', 'best', 'insurance', 'travel', 'healthcare', 'health', 'nomad', 'team']
 	},
 	'https://balupton.com/remote-health': 'https://balupton.com/remotehealth',
 	'https://balupton.com/travel-healthcare': 'https://balupton.com/remotehealth',
@@ -229,7 +236,7 @@ const links: Links = {
 		description:
 			'Use Quad Lock cases to protect your phone and mount it to anything',
 		color: '#0070bc',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/purse': {
 		name: 'Purse',
@@ -237,7 +244,7 @@ const links: Links = {
 		description:
 			'Use Purse to purchase from Amazon with cryptocurrency at a 15% discount',
 		color: '#3b4a54',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/kogan': {
 		name: 'Kogan',
@@ -253,7 +260,7 @@ const links: Links = {
 		description:
 			'Use Honey to automatically apply discount coupons when you shop online',
 		color: '#ff7e27',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/bookingdotcom': {
 		name: 'Booking.com',
@@ -281,7 +288,7 @@ const links: Links = {
 		url: 'https://stake.com.au?refer=benjaminl259',
 		description: 'Use Stake to invest in USA companies (Australia only)',
 		color: '#181818',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/cryptoml': {
 		name: 'Crypto-ML',
@@ -303,7 +310,7 @@ const links: Links = {
 		url: 'https://argent.link/MVICN89IZX',
 		description: 'Use Argent to send, receive, and invest in cryptocurrency',
 		color: '#f36a3d',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/coinjar': {
 		name: 'CoinJar',
@@ -436,7 +443,7 @@ const links: Links = {
 		description:
 			'Use Brave Browser as a secure and privacy focused replacement for Google Chrome',
 		color: '#ff401e',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/collideref': {
 		name: 'Collide',
@@ -445,13 +452,14 @@ const links: Links = {
 		color: '#292929',
 		tags: ['referral']
 	},
-	'https://balupton.com/patreonref': {
+	'https://balupton.com/patreon/invite': {
 		name: 'Patreon',
 		url: 'https://patreon.com/invite/pbqzz',
 		description: 'Use Patreon to earn money from your fanbase',
 		color: '#E6461A',
 		tags: ['referral']
 	},
+	'https://balupton.com/patreonref': 'https://balupton.com/patreon/invite',
 	'https://balupton.com/bitchute': {
 		name: 'BitChute',
 		url: 'https://www.bitchute.com/accounts/referral/balupton/',
@@ -472,7 +480,7 @@ const links: Links = {
 		url: 'http://earthrunners.com?rfsn=763305.e8694',
 		description: 'Use Earth Runners as your minimalist running sandals',
 		color: '#6dc21d',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/backblaze': {
 		name: 'Backblaze',
@@ -480,7 +488,7 @@ const links: Links = {
 		description:
 			'Use Backblaze for unlimited and automated cloud backups of your computer and drives',
 		color: '#990000',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/bonsai': {
 		name: 'Bonsai',
@@ -503,7 +511,7 @@ const links: Links = {
 			'https://click.linksynergy.com/fs-bin/click?id=RltaJog6pRs&offerid=316894.4&subid=0&type=4',
 		description: 'Use Downpour for your audiobook needs',
 		color: '#2c3033',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/freedom': {
 		name: 'Freedom',
@@ -533,21 +541,21 @@ const links: Links = {
 		url: 'https://www.airbnb.com.au/c/benjaminl3638',
 		description: 'Use AirBnB to book accomodation when traveling',
 		color: '#ff5a5f',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/awaytravel': {
 		name: 'Away Travel',
 		url: 'http://fbuy.me/errs2',
 		description: 'Use Away Travel for your luggage',
 		color: '#00344B',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/flic': {
 		name: 'Flic',
 		url: 'https://2.flic.io/invite/msdcxhweir/',
 		description: 'Use Flic as your bluetooth button for anything',
 		color: '#1ed499',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/raiz': {
 		name: 'Raiz',
@@ -571,7 +579,7 @@ const links: Links = {
 		description:
 			'Use BigPay for Asian banking and fee-free bookings on AirAsia',
 		color: '##3884FF',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/revolut': {
 		name: 'Revolut',
@@ -587,35 +595,38 @@ const links: Links = {
 		description:
 			'Use TransferWise to send money around the world as quickly and cheaply as possible',
 		color: '#223049',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/transferwisecard': {
+	'https://balupton.com/transferwise/card': {
 		name: 'TransferWise MasterCard',
 		url: 'https://prf.hn/l/6bEmMGr',
 		description:
 			'Use TransferWise MasterCard to transact with your TransferWise Borderless account around the world',
 		color: '#223049',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/transferwiseborderless': {
+	'https://balupton.com/transferwise/borderless': {
 		name: 'TransferWise Borderless',
 		url: 'https://prf.hn/l/ryVQjn6',
 		description:
 			'Use TransferWise Borderless to have multicurrency bank accounts all around the world',
 		color: '#223049',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/travel-banking': 'https://balupton.com/transferwiseborderless',
-	'https://balupton.com/international-banking': 'https://balupton.com/transferwiseborderless',
-	'https://balupton.com/transferwise-borderless': 'https://balupton.com/transferwiseborderless',
-	'https://balupton.com/transferwiseborderless-au': {
+	'https://balupton.com/transferwise/borderless/au': {
 		name: 'TransferWise Borderless',
 		url: 'https://prf.hn/l/7ABLz4r',
 		description:
 			'Use TransferWise Borderless (Australia) to have multicurrency bank accounts all around the world',
 		color: '#223049',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
+	'https://balupton.com/transferwisecard': 'https://balupton.com/transferwise/card',
+	'https://balupton.com/transferwiseborderless': 'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/travel-banking': 'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/international-banking': 'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/transferwise-borderless': 'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/transferwiseborderless-au': 'https://balupton.com/transferwise/borderless/au',
 	'https://balupton.com/tradingview': {
 		name: 'TradingView',
 		url: 'http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=4529',
@@ -628,7 +639,7 @@ const links: Links = {
 		url: 'https://drivewealth.com/refer?r=A74082&name=Benjamin',
 		description: 'Use DriveWealth to invest in USA companies (USA only)',
 		color: '#FEC108',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/wirex': {
 		name: 'Wirex',
@@ -642,7 +653,7 @@ const links: Links = {
 		url: 'https://www.coinbase.com/join/516032d5fc3baa863b000010',
 		description: 'Use Coinbase to exchange, send and receive cryptocurrency',
 		color: '#2B71B1',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/benco': {
 		name: 'Ben.co',
@@ -759,7 +770,7 @@ const links: Links = {
 		url: 'https://updown.io/r/hl1b0',
 		description: 'Use Updown for website status alerts',
 		color: '#5c4',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/vultr': {
 		name: 'Vultr',
@@ -789,7 +800,7 @@ const links: Links = {
 		url: 'https://db.tt/XFuEv8vB',
 		description: 'Use Dropbox to sync your local files with the cloud',
 		color: '#007ee5',
-		tags: ['referral']
+		tags: ['referral', 'recommendation']
 	},
 	'https://balupton.com/screenflow': {
 		name: 'Screenflow',
