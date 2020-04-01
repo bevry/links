@@ -2138,6 +2138,11 @@ const links: Links = {
 		description:
 			'Bevry is a cooperative aimed to see everyone do what they love, share it with the world, and live well'
 	},
+	'https://bevry.me/projects': {
+		name: 'Bevry Projects',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py',
+		description: 'Learn about the projects that Bevry is working on'
+	},
 	'https://bevry.me/meet': {
 		name: 'Bevry Study Group',
 		url: 'https://discuss.bevry.me/t/about-the-meetings/92/1',
