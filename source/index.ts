@@ -75,6 +75,13 @@ const links: Links = {
 		color: '#fa0e6a',
 		tags: ['referral', 'recommendation']
 	},
+	'https://balupton.com/fireflies': {
+		name: 'Fireflies',
+		url: 'https://app.fireflies.ai/login?freecredit=JBS4bOfN',
+		description: 'Use Firelies to take notes for your digital meetings with optional transcription',
+		color: '#FB35A7',
+		tags: ['referral', 'recommendation']
+	},
 	'https://balupton.com/coda': {
 		name: 'Coda',
 		url: 'https://coda.io/?r=CKtcbWm3QpGD18vwdwDsmw',
