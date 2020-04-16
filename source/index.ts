@@ -2156,6 +2156,61 @@ const links: Links = {
 		description:
 			'Bevry is a cooperative aimed to see everyone do what they love, share it with the world, and live well'
 	},
+	'https://bevry.me/projects/jbpcommunity': {
+		name: 'Jordan B Peterson Community',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Jordan-B-Peterson-Community_su4d_#_luFd1',
+		description: "Learn about Jordan B Peterson Community, a Bevry project"
+	},
+	'https://bevry.me/projects/mood-journal': {
+		name: 'Mood Journal',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Mood-Journal-for-Apple-Watch_suUZM#_luOH1',
+		description: "Learn about Mood Journal, a Bevry project"
+	},
+	'https://bevry.me/projects/docpad': {
+		name: 'DocPad',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/DocPad_suu46#_lulmP',
+		description: "Learn about DocPad, a Bevry project"
+	},
+	'https://bevry.me/projects/startup-hostel': {
+		name: 'Startup Hostel',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Startup-Hostel_suoqH#_luqNG',
+		description: "Learn about Startup Hostel, a Bevry project"
+	},
+	'https://bevry.me/projects/automated-trading': {
+		name: 'Automated Trading',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Automated-Trading_suv4o#_luYQ9',
+		description: "Learn about Automated Trading, a Bevry project"
+	},
+	'https://bevry.me/projects/hashistack': {
+		name: 'Hashistack',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Hashistack_suGLp#_lu-xc',
+		description: "Learn about Hashistack, a Bevry project"
+	},
+	'https://bevry.me/projects/interconnect': {
+		name: 'Interconnect',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Interconnect_sursg#_lufDp',
+		description: "Learn about Interconnect, a Bevry project"
+	},
+	'https://bevry.me/projects/fountain': {
+		name: 'Fountain',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Fountain_su58a#_lu5wr',
+		description: "Learn about Fountain, a Bevry project"
+	},
+	'https://bevry.me/projects/tithe': {
+		name: 'Tithe',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Tithe_sug5-#_luLCx',
+		description: "Learn about Tithe, a Bevry project"
+	},
+	'https://bevry.me/projects/landing-kit': {
+		name: 'Digital Nomad Landing Kit',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Digital-Nomad-Landing-Kit_subIY#_luVTm',
+		description: "Learn about Digital Nomad Landing Kit, a Bevry project"
+	},
+	'https://bevry.me/projects/reading-rehab': {
+		name: 'Reading Rehab',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Reading-Rehab_suRLq#_luVYE',
+		description: "Learn about Reading Rehab, a Bevry project"
+	},
 	'https://bevry.me/projects': {
 		name: 'Bevry Projects',
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py',
