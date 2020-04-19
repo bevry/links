@@ -7,7 +7,7 @@ type Tag =
 	| 'donate'
 	| string
 
-type Redirection = 'temporary' | 'permanent' | 'page' | 'none'
+type Redirection = 'temporary' | 'permanent' | 'page' | 'alias' | 'none'
 
 export interface Link {
 	url: string
@@ -938,6 +938,7 @@ const links: Links = {
 		color: '#00b7d9',
 		tags: ['referral']
 	},
+	'https://balupton.com/circleinternet': 'https://balupton.com/circlemedia',
 
 	// Links
 	'https://balupton.com/peac': {
@@ -970,11 +971,13 @@ const links: Links = {
 		description:
 			'Author of the mostly likely not the best non-best selling book in cultural literature right now.'
 	},
+	'https://balupton.com/author': 'https://balupton.com/book',
 	'https://balupton.com/bookupdates': {
 		name: 'Book Newsletter',
 		url: 'https://confirmsubscription.com/h/r/36CE01ACCFE65688',
 		description: 'Subscribe for updates when I publish new books'
 	},
+	'https://balupton.com/books': 'https://balupton.com/bookupdates',
 	'https://balupton.com/privileged': {
 		name: 'privileged',
 		url: 'https://www.youtube.com/watch?v=cRsYwu8uD4I',
@@ -1507,6 +1510,14 @@ const links: Links = {
 		description:
 			'My first security advisory: WebCT 4.x Javascript Session Stealer Exploits'
 	},
+	'https://balupton.com/blogs/dev?description=webct_session_stealer_exploit': {
+		url: 'https://balupton.com/webctexploit',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/documents/webct_exploits.txt': {
+		url: 'https://balupton.com/webctexploit',
+		redirect: 'permanent'
+	},
 	'https://balupton.com/dsr': {
 		name: 'Data-Science Retreat',
 		url: 'http://datascienceretreat.com',
@@ -1526,6 +1537,7 @@ const links: Links = {
 		description:
 			'The Bachelor of Science (Information Technology) course focuses on the overall discipline of information technology which covers the more technological and applied aspects of computing, with less emphasis on theory. Some of these areas range from system programming to software design and engineering, networking - including Internet and the web, artificial intelligence for decision support and graphics. Information technology graduates continue to be in demand as computing is one of the biggest growth areas in the world.'
 	},
+	'https://balupton.com/degree': 'https://balupton.com/bcsit',
 	'https://balupton.com/curtin': {
 		name: 'Curtin University',
 		url: 'https://en.wikipedia.org/wiki/Curtin_University',
@@ -1781,6 +1793,7 @@ const links: Links = {
 		description:
 			'Trading interests me, as it is an unlimited supply of money, that with some wit and grace, can be tapped into, consenually and anytime, freeing one up for other things, without waiting for clients'
 	},
+	'https://balupton.com/trader': 'https://balupton.com/trading',
 	'https://balupton.com/ipvmen': {
 		name: 'Intimate Partner Violence against Men',
 		url:
@@ -1955,91 +1968,6 @@ const links: Links = {
 		color: 'gold',
 		tags: ['social']
 	},
-	// Donate
-	argent: {
-		name: 'Argent',
-		url: 'https://balupton.argent.xyz',
-		description: 'Support me via Argent',
-		color: '#f36a3d',
-		tags: ['social', 'donate']
-	},
-	collide: {
-		name: 'Collide',
-		url: 'https://www.collide.com/creator/balupton',
-		description: 'Support me on Collide',
-		color: '#292929',
-		tags: ['social', 'donate']
-	},
-	bitpatron: {
-		name: 'BitPatron',
-		url: 'https://vrlps.co/py79b8w/cp',
-		description: 'Support me on BitPatron',
-		color: '#ff4828',
-		tags: ['social', 'donate']
-	},
-	bitbacker: {
-		name: 'BitBacker',
-		url: 'https://bitbacker.io/user/balupton/',
-		description: 'Support me on BitBacker',
-		color: '#258ac1',
-		tags: ['social', 'donate']
-	},
-	flattr: {
-		name: 'Flattr',
-		url: 'https://flattr.com/profile/balupton',
-		description: 'Support me on Flattr',
-		color: '#66b115',
-		tags: ['social', 'donate']
-	},
-	liberapay: {
-		name: 'Liberapay',
-		url: 'https://liberapay.com/balupton',
-		description: 'Support me on Liberapay',
-		color: '#f6c915',
-		tags: ['social', 'donate']
-	},
-	opencollective: {
-		name: 'Open Collective',
-		url: 'https://opencollective.com/balupton',
-		description: 'View my profile on Open Collective',
-		color: 'rgb(51, 133, 255)',
-		tags: ['social', 'donate']
-	},
-	patreon: {
-		name: 'Patreon',
-		url: 'https://patreon.com/balupton',
-		description: 'Support me on Patreon',
-		color: '#E6461A',
-		tags: ['social', 'donate']
-	},
-	buymeacoffee: {
-		name: 'Buy Me A Coffee',
-		url: 'https://www.buymeacoffee.com/balupton',
-		description: 'Support me on Buy Me A Coffee',
-		color: '#FF813F',
-		tags: ['social', 'donate']
-	},
-	thanksapp: {
-		name: 'GiveThanks',
-		url: 'https://givethanks.app/u/balupton',
-		description: 'Support me on GiveThanks',
-		color: '#3c3c3c',
-		tags: ['social', 'donate']
-	},
-	paypal: {
-		name: 'Paypal',
-		url: 'https://paypal.me/balupton',
-		description: 'Support me on Paypal',
-		color: '#009cde',
-		tags: ['social', 'donate']
-	},
-	wishlist: {
-		name: 'Wishlist',
-		url: `http://amzn.com/w/2F8TXKSNAFG4V?tag=${amazonCode}`,
-		description: 'Buy me something on my Amazon Wishlist',
-		color: 'rgb(228, 121, 17)',
-		tags: ['social', 'donate']
-	},
 	// Misc
 	'https://balupton.com/sustainability': {
 		name: 'Sustainability',
@@ -2115,6 +2043,7 @@ const links: Links = {
 		description: "View the trainings I've given on SpeakerRate",
 		url: 'http://speakerrate.com/speakers/11963-benjamin-lupton'
 	},
+	'https://balupton.com/trainings': 'https://balupton.com/speakerrate',
 	'https://balupton.com/talks': {
 		name: 'Talks',
 		description: "View the talks I've given via YouTube",
@@ -2136,50 +2065,75 @@ const links: Links = {
 		tags: ['recommendation', 'book']
 	},
 
-	// aliases
-	'https://balupton.com/degree': 'https://balupton.com/bcsit',
-	gratipay: 'liberapay',
-	gittip: 'liberapay',
-	'https://balupton.com/circleinternet': 'https://balupton.com/circlemedia',
-	'https://balupton.com/trainings': 'https://balupton.com/speakerrate',
-	'https://balupton.com/trader': 'https://balupton.com/trading',
-	'https://balupton.com/blogs/dev?description=webct_session_stealer_exploit':
-		'https://balupton.com/webctexploit',
-	'https://balupton.com/documents/webct_exploits.txt':
-		'https://balupton.com/webctexploit',
-	'https://balupton.com/author': 'https://balupton.com/book',
-	'https://balupton.com/books': 'https://balupton.com/bookupdates',
-	contracts: {
+	// redirects
+	'https://bevry.me/contracts': {
 		name: 'Contracts',
 		url: 'https://drive.google.com/drive/folders/0B6MqiLy7C3PhZ196SHVSQ2MxU00',
 		description:
 			'The contract templates Benjamin has used successfully with Bevry'
 	},
-	contract: 'contracts',
-	'https://balupton.com/gh': 'https://balupton.com/github',
-	'https://balupton.com/g': 'https://balupton.com/github',
-	'https://balupton.com/t': 'https://balupton.com/twitter',
-	'https://balupton.com/couch': 'https://balupton.com/couchsurfing',
-	'https://balupton.com/couchsurfer': 'https://balupton.com/couchsurfing',
-	'https://balupton.com/s': 'https://balupton.com/sustainability',
+	'https://balupton.com/contracts': {
+		url: 'https://bevry.me/contracts',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/contract': {
+		url: 'https://bevry.me/contracts',
+		redirect: 'permanent'
+	},
+	'https://bevry.me/contract': {
+		url: 'https://bevry.me/contracts',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/gh': {
+		url: 'https://balupton.com/github',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/g': {
+		url: 'https://balupton.com/github',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/t': {
+		url: 'https://balupton.com/twitter',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/couch': {
+		url: 'https://balupton.com/couchsurfing',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/couchsurfer': {
+		url: 'https://balupton.com/couchsurfing',
+		redirect: 'temporary'
+	},
+	'https://balupton.com/s': {
+		url: 'https://balupton.com/sustainability',
+		redirect: 'permanent'
+	},
 
 	// balupton.com
 	'https://balupton.com/zoom': {
 		name: "Benjamin's Zoom Meeting Room",
 		url: 'https://zoom.us/j/9855647765'
 	},
-	'https://balupton.com/wire':
-		'https://wire.com/en/products/personal-secure-messenger/',
+	'https://balupton.com/wire': {
+		name: 'Wire',
+		url: 'https://wire.com/en/products/personal-secure-messenger/',
+		description: 'Use Wire to securely communicate with your peers'
+	},
 
 	// meet.bevry.me
 	// 'https://meet.bevry.me': 'https://discuss.bevry.me/t/about-the-meetings/92/1',
-	'https://meet.bevry.me/join': 'https://discord.gg/y5PBMar',
-	'https://meet.bevry.me/watch': 'https://bevry.me/youtube',
-	'https://meet.bevry.me/schedule':
-		'https://coda.io/d/Meetings_dPmAOiJ2kHE/_sukmJ',
-	'https://meet.bevry.me/favicon.ico':
-		'https://meet.bevry.me/static//favicon.ico',
-	'https://meet.bevry.me/robots.txt': 'https://meet.bevry.me/static/robots.txt',
+	'https://meet.bevry.me/join': {
+		url: 'https://bevry.me/discord/meetings',
+		redirect: 'temporary'
+	},
+	'https://meet.bevry.me/watch': {
+		url: 'https://bevry.me/youtube',
+		redirect: 'temporary'
+	},
+	'https://meet.bevry.me/schedule': {
+		url: 'https://coda.io/d/Meetings_dPmAOiJ2kHE/_sukmJ',
+		redirect: 'temporary'
+	},
 
 	// bevry.me
 	'https://bevry.me': {
@@ -2258,90 +2212,163 @@ const links: Links = {
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py',
 		description: 'Learn about the projects that Bevry is working on'
 	},
-	'https://bevry.me/meet': {
-		name: 'Bevry Study Group',
-		url: 'https://discuss.bevry.me/t/about-the-meetings/92/1',
-		description:
-			'Bevry hosts a weekly study group for discussions about philosophy'
-	},
 	'https://bevry.me/youtube': {
 		name: 'Bevry Study Group on YouTube',
 		url: 'https://www.youtube.com/channel/UCPkobzBsAIjpItonUT7AU9Q',
 		description: "Watch Bevry's recorded study group sessions"
 	},
-	'https://bevry.me/study-group': 'https://bevry.me/meet',
-	'https://bevry.me/meetings': 'https://bevry.me/meet',
-	'https://bevry.me/discord': 'https://discord.gg/DuBp9Jw',
-	'https://bevry.me/discord/dev': 'https://discord.gg/AGVSmdg',
-	'https://bevry.me/livestream': 'https://discord.gg/M8ERgNV',
-	'https://bevry.me/source': 'https://github.com/bevry/website',
-	jbpcommunity: 'https://bevry.me',
-	jbpstudygroup: 'https://bevry.me/meet',
-	jbpsg: 'https://bevry.me/meet',
-	jbpyoutube: 'https://bevry.me/youtube',
-	jbpvids: 'https://bevry.me/youtube',
-	podcast: 'https://bevry.me/youtube',
-	podcaster: 'https://bevry.me/youtube',
+	'https://bevry.me/study-group': {
+		name: 'Bevry Study Group',
+		url: 'https://discuss.bevry.me/t/about-the-meetings/92/1',
+		description:
+			'Bevry hosts a weekly study group for discussions about philosophy'
+	},
+	'https://bevry.me/meet': 'https://bevry.me/study-group',
+	'https://bevry.me/meetings': 'https://bevry.me/study-group',
+	'https://bevry.me/discord': {
+		url: 'https://discord.gg/DuBp9Jw',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/discord/dev': {
+		url: 'https://discord.gg/AGVSmdg',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/discord/meetings': {
+		url: 'https://discord.gg/y5PBMar',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/livestream': {
+		url: 'https://discord.gg/M8ERgNV',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/source': {
+		url: 'https://github.com/bevry/website',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/podcast': {
+		url: 'https://bevry.me/youtube',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/podcaster': {
+		url: 'https://bevry.me/podcast',
+		redirect: 'permanent'
+	},
 
 	//  bevry.me / tos
-	'https://bevry.me/tos': 'https://discuss.bevry.me/tos',
-	'https://bevry.me/terms': 'https://discuss.bevry.me/tos',
-	'https://bevry.me/privacy': 'https://discuss.bevry.me/privacy',
+	'https://bevry.me/tos': {
+		url: 'https://discuss.bevry.me/tos',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/terms': 'https://bevry.me/tos',
+	'https://bevry.me/privacy': {
+		url: 'https://discuss.bevry.me/privacy',
+		redirect: 'temporary'
+	},
 
 	//  bevry.me / payment
-	'https://bevry.me/fund':
-		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-	'https://bevry.me/funding':
-		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-	'https://bevry.me/donate':
-		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-	'https://bevry.me/payment':
-		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-	'https://bevry.me/bounties':
-		'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-	'https://bevry.me/goopen': 'https://github.com/bevry/goopen',
+	'https://bevry.me/fund': {
+		url: 'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/funding': {
+		url: 'https://bevry.me/fund',
+		redirect: 'permanent'
+	},
+	'https://bevry.me/donate': 'https://bevry.me/fund',
+	'https://bevry.me/bounties': 'https://bevry.me/fund',
+	'https://bevry.me/payment': 'https://bevry.me/fund',
 	'https://bevry.me/coinbase': 'https://bevry.me/payment',
 	'https://bevry.me/bitcoin': 'https://bevry.me/payment',
 	'https://bevry.me/crypto': 'https://bevry.me/payment',
-	'https://bevry.me/paypal': 'http://paypal.me/balupton',
-	'https://bevry.me/patreon': 'https://www.patreon.com/bevry',
-	'https://bevry.me/opencollective': 'https://opencollective.com/bevry',
-	'https://bevry.me/gratipay': 'https://liberapay.com/bevry',
-	'https://bevry.me/gittip': 'https://bevry.me/gratipay',
-	'https://bevry.me/liberapay': 'https://liberapay.com/bevry',
 	'https://bevry.me/cash': 'https://bevry.me/payment',
-	'https://bevry.me/wishlist': 'https://balupton.com/wishlist', // here for legacy reasons as github badges still use it
+	'https://bevry.me/goopen': {
+		url: 'https://github.com/bevry/goopen',
+		redirect: 'permanent'
+	},
+	'https://bevry.me/paypal': {
+		url: 'http://paypal.me/balupton',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/patreon': {
+		url: 'https://www.patreon.com/bevry',
+		redirect: 'temporary'
+	},
 
 	//  bevry.me / social
-	'https://bevry.me/google+': 'https://plus.google.com/+BevryMe',
-	'https://bevry.me/twitter':
-		'https://discuss.bevry.me/t/official-twitter-accounts/86/1',
-	'https://bevry.me/trello': 'https://trello.com/b/z62c2a6Z/bevry-focus',
-	'https://bevry.me/blog': 'https://blog.bevry.me',
+	'https://bevry.me/google+': {
+		url: 'https://plus.google.com/+BevryMe',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/twitter': {
+		url: 'https://discuss.bevry.me/t/official-twitter-accounts/86/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/trello': {
+		url: 'https://trello.com/b/z62c2a6Z/bevry-focus',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/blog': {
+		url: 'https://blog.bevry.me',
+		redirect: 'permanent'
+	},
 
 	//  bevry.me / support
-	'https://bevry.me/forum': 'https://discuss.bevry.me',
-	'https://bevry.me/coding-standards':
-		'https://discuss.bevry.me/t/official-coding-standards/562/1',
-	'https://bevry.me/slack':
-		'https://discuss.bevry.me/t/official-slack-chat-rooms/607/1',
-	'https://bevry.me/support':
-		'https://discuss.bevry.me/t/official-bevry-support-channels/606/1',
+	'https://bevry.me/forum': {
+		url: 'https://discuss.bevry.me',
+		redirect: 'permanent'
+	},
+	'https://bevry.me/coding-standards': {
+		url: 'https://discuss.bevry.me/t/official-coding-standards/562/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/documenation-guidelines': {
+		url: 'https://discuss.bevry.me/t/bevrys-documentation-guidelines/582/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/support-guidelines': {
+		url: 'https://discuss.bevry.me/t/bevrys-support-guidelines/585/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/contribute': {
+		url: 'https://discuss.bevry.me/t/official-contribution-guide/559/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/slack': {
+		url: 'https://discuss.bevry.me/t/official-slack-chat-rooms/607/1',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/support': {
+		url: 'https://discuss.bevry.me/t/official-bevry-support-channels/606/1',
+		redirect: 'temporary'
+	},
 	'https://bevry.me/contact': 'https://bevry.me/support',
-	'https://bevry.me/contribute':
-		'https://discuss.bevry.me/t/official-contribution-guide/559/1',
 	'https://bevry.me/premium-support': 'https://bevry.me/support',
-	'https://learn.bevry.me/support': 'https://bevry.me/support',
-	'https://learn.bevry.me/community/chat-guidelines':
-		'https://discuss.bevry.me/t/bevrys-support-guidelines/585/1',
-	'https://learn.bevry.me/community/support-guidelines':
-		'https://discuss.bevry.me/t/bevrys-support-guidelines/585/1',
-	'https://learn.bevry.me/community/coding-standards':
-		'https://discuss.bevry.me/t/bevrys-coding-standards/562/1',
-	'https://learn.bevry.me/community/contribute':
-		'https://discuss.bevry.me/t/bevrys-contribution-guide/559/1',
-	'https://learn.bevry.me/community/documentation-guidelines':
-		'https://discuss.bevry.me/t/bevrys-documentation-guidelines/582/1',
+
+	// learn.bevry.me
+	'https://learn.bevry.me/community/chat-guidelines': {
+		url: 'https://bevry.me/support-guidelines',
+		redirect: 'permanent'
+	},
+	'https://learn.bevry.me/community/support-guidelines': {
+		url: 'https://bevry.me/support-guidelines',
+		redirect: 'permanent'
+	},
+	'https://learn.bevry.me/support': {
+		url: 'https://bevry.me/support',
+		redirect: 'permanent'
+	},
+	'https://learn.bevry.me/community/coding-standards': {
+		url: 'https://bevry.me/coding-standards',
+		redirect: 'permanent'
+	},
+	'https://learn.bevry.me/community/contribute': {
+		url: 'https://bevry.me/contribute',
+		redirect: 'permanent'
+	},
+	'https://learn.bevry.me/community/documentation-guidelines': {
+		url: 'https://bevry.me/documentation-guidelines',
+		redirect: 'permanent'
+	},
 	'https://learn.bevry.me/install-node.js': {
 		url: 'https://learn.bevry.me/install-node',
 		redirect: 'permanent'
@@ -2354,13 +2381,6 @@ const links: Links = {
 		url: 'https://learn.bevry.me/install-node',
 		redirect: 'permanent'
 	},
-
-	//  bevry.me / training
-	'https://bevry.me/nodefailsafe':
-		'https://gist.github.com/balupton/4721905fe5d51c541660',
-	'https://bevry.me/talks/handsonnode': 'https://node.eventbrite.com/',
-	'https://bevry.me/node.zip':
-		'https://www.dropbox.com/s/masz4vl1b4btwfw/hands-on-node-examples.zip',
 
 	//  bevry.me / docs / node
 	'https://bevry.me/learn/node-install': {
@@ -2388,6 +2408,20 @@ const links: Links = {
 	'https://bevry.me/learn/queryengine-guide': {
 		url: 'https://github.com/bevry/query-engine/wiki/Using',
 		redirect: 'permanent'
+	},
+
+	//  bevry.me / training
+	'https://bevry.me/nodefailsafe': {
+		url: 'https://gist.github.com/balupton/4721905fe5d51c541660',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/talks/handsonnode': {
+		url: 'https://node.eventbrite.com/',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/node.zip': {
+		url: 'https://www.dropbox.com/s/masz4vl1b4btwfw/hands-on-node-examples.zip',
+		redirect: 'temporary'
 	},
 
 	//  docpad
@@ -2740,18 +2774,30 @@ const links: Links = {
 			'https://discuss.bevry.me/t/please-unsubscribe-from-the-calendar-subscription/474',
 		redirect: 'permanent'
 	},
-	'https://jordanbpeterson.community/lecture-notes': {
+	'https://bevry.me/jbp-lecture-notes': {
 		url: 'https://discuss.bevry.me/t/about-the-study-category/991/1',
+		redirect: 'temporary'
+	},
+	'https://jordanbpeterson.community/lecture-notes': {
+		url: 'https://bevry.me/jbp-lecture-notes',
 		redirect: 'permanent'
 	},
-	'https://jordanbpeterson.community/reading-group': {
+	'https://bevry.me/jbp-reading-group': {
 		url:
 			'https://www.goodreads.com/group/show/253798-jordan-b-peterson-reading-group',
+		redirect: 'temporary'
+	},
+	'https://jordanbpeterson.community/reading-group': {
+		url: 'https://bevry.me/jbp-reading-group',
 		redirect: 'permanent'
 	},
-	'https://jordanbpeterson.community/reading-list': {
+	'https://bevry.me/jbp-reading-list': {
 		url:
 			'https://www.goodreads.com/group/bookshelf/253798-jordan-b-peterson-reading-group?utf8=✓&order=d&sort=date_finished&view=main&per_page=200',
+		redirect: 'temporary'
+	},
+	'https://jordanbpeterson.community/reading-list': {
+		url: 'https://bevry.me/jbp-reading-list',
 		redirect: 'permanent'
 	},
 	'https://jordanbpeterson.community/youtube': {
@@ -2819,29 +2865,189 @@ const links: Links = {
 	'https://jordanbpeterson.community': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
-	}
+	},
+
+	// global aliases
+	argent: {
+		name: 'Argent',
+		url: 'https://balupton.argent.xyz',
+		description: 'Support me via Argent',
+		color: '#f36a3d',
+		tags: ['social', 'donate']
+	},
+	collide: {
+		name: 'Collide',
+		url: 'https://www.collide.com/creator/balupton',
+		description: 'Support me on Collide',
+		color: '#292929',
+		tags: ['social', 'donate']
+	},
+	bitpatron: {
+		name: 'BitPatron',
+		url: 'https://vrlps.co/py79b8w/cp',
+		description: 'Support me on BitPatron',
+		color: '#ff4828',
+		tags: ['social', 'donate']
+	},
+	bitbacker: {
+		name: 'BitBacker',
+		url: 'https://bitbacker.io/user/balupton/',
+		description: 'Support me on BitBacker',
+		color: '#258ac1',
+		tags: ['social', 'donate']
+	},
+	flattr: {
+		name: 'Flattr',
+		url: 'https://flattr.com/profile/balupton',
+		description: 'Support me on Flattr',
+		color: '#66b115',
+		tags: ['social', 'donate']
+	},
+	'https://balupton.com/liberapay': {
+		name: 'Liberapay',
+		url: 'https://liberapay.com/balupton',
+		description: 'Support me on Liberapay',
+		color: '#f6c915',
+		tags: ['social', 'donate']
+	},
+	'https://balupton.com/gittip': 'https://balupton.com/liberapay',
+	'https://balupton.com/gatipay': 'https://balupton.com/liberapay',
+	'https://bevry.me/liberapay': {
+		name: 'Liberapay',
+		url: 'https://liberapay.com/bevry',
+		description: 'Support Bevry on Liberapay',
+		color: '#f6c915',
+		tags: ['social', 'donate']
+	},
+	'https://bevry.me/gittip': 'https://bevry.me/liberapay',
+	'https://bevry.me/gatipay': 'https://bevry.me/liberapay',
+	opencollective: {
+		name: 'Open Collective',
+		url: 'https://opencollective.com/balupton',
+		description: 'View my profile on Open Collective',
+		color: 'rgb(51, 133, 255)',
+		tags: ['social', 'donate']
+	},
+	'https://bevry.me/opencollective': {
+		url: 'https://opencollective.com/bevry',
+		redirect: 'temporary'
+	},
+	patreon: {
+		name: 'Patreon',
+		url: 'https://patreon.com/balupton',
+		description: 'Support me on Patreon',
+		color: '#E6461A',
+		tags: ['social', 'donate']
+	},
+	buymeacoffee: {
+		name: 'Buy Me A Coffee',
+		url: 'https://www.buymeacoffee.com/balupton',
+		description: 'Support me on Buy Me A Coffee',
+		color: '#FF813F',
+		tags: ['social', 'donate']
+	},
+	thanksapp: {
+		name: 'GiveThanks',
+		url: 'https://givethanks.app/u/balupton',
+		description: 'Support me on GiveThanks',
+		color: '#3c3c3c',
+		tags: ['social', 'donate']
+	},
+	paypal: {
+		name: 'Paypal',
+		url: 'https://paypal.me/balupton',
+		description: 'Support me on Paypal',
+		color: '#009cde',
+		tags: ['social', 'donate']
+	},
+	wishlist: {
+		name: 'Wishlist',
+		url: `http://amzn.com/w/2F8TXKSNAFG4V?tag=${amazonCode}`,
+		description: 'Buy me something on my Amazon Wishlist',
+		color: 'rgb(228, 121, 17)',
+		tags: ['social', 'donate']
+	},
+	// if this becomes domain specific, ensure bevry.me and balupton.com both link to them
+	jbpcommunity: 'https://bevry.me',
+	jbpstudygroup: 'https://bevry.me/meet',
+	jbpsg: 'https://bevry.me/meet',
+	jbpyoutube: 'https://bevry.me/youtube',
+	jbpvids: 'https://bevry.me/youtube'
 }
 
 export default links
 
-export function resolve(
-	url: string,
-	redirection?: Redirection
-): { url: string; redirection: Redirection } {
-	const link = links[url]
+type Resolution = { url: string; redirection: Redirection }
 
-	// the url provided was the end of the line
-	// so return it with the provided redirection, otherwise default to none
-	if (!link) {
-		return { url, redirection: redirection || 'none' }
+export function traverse(url: string): Resolution[] {
+	const resolutions: Resolution[] = []
+	while (true) {
+		const link = links[url]
+		if (!link) {
+			break
+		} else if (typeof link === 'string') {
+			resolutions.push({ url: link, redirection: 'alias' })
+			url = link
+		} else {
+			resolutions.push({
+				url: link.url,
+				redirection: link.redirect || 'temporary'
+			})
+			url = link.url
+		}
 	}
-
-	// link === string
-	// so try and resolve where it points to
-	if (typeof link === 'string') {
-		return resolve(link, 'temporary')
-	}
-
-	// link === an actual link object
-	return resolve(link.url, link.redirect)
+	return resolutions
 }
+
+// resolve is used for replacing link hrefs
+// it should only resolve permanent redirects
+// as a link href should only be replaced, if a permanent replacement occured
+export function resolve(url: string): Resolution {
+	const resolutions = traverse(url)
+	let redirection: Redirection = 'none'
+	for (const resolution of resolutions) {
+		if (resolution.redirection !== 'permanent') {
+			break
+		} else if (resolution.redirection === 'permanent') {
+			url = resolution.url
+			redirection = 'permanent'
+		}
+	}
+	return { url, redirection }
+}
+
+// follow is used for redirecting http requests
+// it should follow down the rabit hole, and if any non-permanent redirects were found, mark redirection as temporary
+export function follow(url: string): Resolution {
+	const resolutions = traverse(url)
+	let redirection: Redirection = 'none'
+	for (const resolution of resolutions) {
+		url = resolution.url
+		if (resolution.redirection !== 'permanent') {
+			redirection = 'temporary'
+		} else if (
+			resolution.redirection === 'permanent' &&
+			redirection === 'none'
+		) {
+			redirection = 'permanent'
+		}
+	}
+	return { url, redirection }
+}
+
+/*
+console.log(
+	resolve('https://jordanbpeterson.community/reading-group'),
+	resolve(resolve('https://jordanbpeterson.community/reading-group').url)
+)
+console.log(
+	resolve('https://jordanbpeterson.community/reading-list'),
+	resolve(resolve('https://jordanbpeterson.community/reading-list').url)
+)
+console.log(follow('https://jordanbpeterson.community/reading-list'))
+console.log(
+	resolve('https://bevry.me/gittip'),
+	resolve(resolve('https://bevry.me/gittip').url)
+)
+console.log(follow('https://bevry.me/gittip'))
+*/

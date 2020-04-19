@@ -15,17 +15,21 @@ function getLink(value: Link | string): Link | string {
 }
 
 kava.suite('links', function(suite, test) {
-	test('all aliases are valid', function() {
+	test('all links resolve to a valid url', function() {
 		Object.keys(links).forEach(function(key) {
 			let value = links[key],
 				destination
 			// recurse
 			while ((destination = getLink(value))) {
+				if (destination === value) {
+					throw new Error(`link ${value} points to itself`)
+				}
 				value = destination
 			}
 			// convert
 			if (typeof value === 'string') {
-				value = { url: value }
+				throw new Error(`link ${value} did not resolve to a full entry`)
+				// value = { url: value }
 			}
 			// check
 			if (!value.url || /^[a-zA-Z-]+$/.test(value.url)) {
