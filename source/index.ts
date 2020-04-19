@@ -1058,12 +1058,7 @@ const links: Links = {
 		description:
 			'Pantheism is a stance that believes the notion of God is synonymous with the notion of the Universe. Learn about Pantheism on Wikipedia.'
 	},
-	'https://balupton.com/docpad': {
-		name: 'DocPad',
-		url: 'https://docpad.bevry.me',
-		description:
-			'DocPad rethought web development and was the first big static site generator for Node.js gaining over 2000 stars, hundreds of daily users, 200 plugins, and 100 contributors.'
-	},
+	'https://balupton.com/docpad': 'https://docpad.org',
 	'https://balupton.com/quora': {
 		name: 'Quora',
 		url: 'https://www.quora.com/profile/Benjamin-Lupton',
@@ -3019,6 +3014,13 @@ const links: Links = {
 		url: 'https://en.wikipedia.org/wiki/C_%28programming_language%29',
 		description:
 			'C is a low-level programming language used to create powerful applications.'
+	},
+	'https://docpad.org': {
+		name: 'DocPad',
+		url: 'https://docpad.bevry.me',
+		description:
+			'DocPad rethought web development and was the first big static site generator for Node.js gaining over 2000 stars, hundreds of daily users, 200 plugins, and 100 contributors.',
+		redirect: 'permanent'
 	},
 	'https://bevry.me': {
 		name: 'Bevry',
