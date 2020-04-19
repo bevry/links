@@ -2617,51 +2617,51 @@ const links: Links = {
 		url: 'https://bevry.me/projects/tithe',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/interconnect/39': {
+	'https://discuss.bevry.me/c/projects/interconnect/39': {
 		url: 'https://bevry.me/projects/interconnect',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/interconnect': {
+	'https://discuss.bevry.me/c/projects/interconnect': {
 		url: 'https://bevry.me/projects/interconnect',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/t/about-interconnect/675': {
+	'https://discuss.bevry.me/t/about-interconnect/675': {
 		url: 'https://bevry.me/projects/interconnect',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/fountain/32': {
+	'https://discuss.bevry.me/c/projects/fountain/32': {
 		url: 'https://bevry.me/projects/fountain',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/fountain': {
+	'https://discuss.bevry.me/c/projects/fountain': {
 		url: 'https://bevry.me/projects/fountain',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/t/about-fountain/651': {
+	'https://discuss.bevry.me/t/about-fountain/651': {
 		url: 'https://bevry.me/projects/fountain',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/mood-journal-for-apple-watch/41': {
+	'https://discuss.bevry.me/c/projects/mood-journal-for-apple-watch/41': {
 		url: 'https://bevry.me/projects/mood-journal',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/projects/mood-journal-for-apple-watch': {
+	'https://discuss.bevry.me/c/projects/mood-journal-for-apple-watch': {
 		url: 'https://bevry.me/projects/mood-journal',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/t/about-the-mood-journal-for-apple-watch/677': {
+	'https://discuss.bevry.me/t/about-the-mood-journal-for-apple-watch/677': {
 		url: 'https://bevry.me/projects/mood-journal',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/philosophy/jordanbpeterson/18': {
+	'https://discuss.bevry.me/c/philosophy/jordanbpeterson/18': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/philosophy/jordanbpeterson': {
+	'https://discuss.bevry.me/c/philosophy/jordanbpeterson': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/t/about-the-jordan-b-peterson-community/178': {
+	'https://discuss.bevry.me/t/about-the-jordan-b-peterson-community/178': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	},
@@ -2709,15 +2709,15 @@ const links: Links = {
 		url: 'https://discuss.bevry.me/tag/jbp-reading',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/philosophy/20': {
+	'https://discuss.bevry.me/c/philosophy/20': {
 		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/c/philosophy': {
+	'https://discuss.bevry.me/c/philosophy': {
 		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.met/t/about-the-philosophy-category/504': {
+	'https://discuss.bevry.me/t/about-the-philosophy-category/504': {
 		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
 	}
