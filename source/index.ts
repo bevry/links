@@ -7,6 +7,8 @@ type Tag =
 	| 'donate'
 	| string
 
+type Redirection = 'temporary' | 'permanent' | 'page' | 'none'
+
 export interface Link {
 	url: string
 	name?: string
@@ -14,7 +16,7 @@ export interface Link {
 	color?: string
 	tags?: Tag[]
 	referralCode?: string
-	redirect?: 'permanent' | 'temporary' | 'page'
+	redirect?: Redirection
 }
 
 interface Links {
@@ -2192,6 +2194,8 @@ const links: Links = {
 			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Jordan-B-Peterson-Community_su4d_#_luFd1',
 		description: 'Learn about Jordan B Peterson Community, a Bevry project'
 	},
+	'https://bevry.me/projects/jbp-community':
+		'https://bevry.me/projects/jbpcommunity',
 	'https://bevry.me/projects/mood-journal': {
 		name: 'Mood Journal',
 		url:
@@ -2724,3 +2728,25 @@ const links: Links = {
 }
 
 export default links
+
+export function resolve(
+	url: string,
+	redirection?: Redirection
+): { url: string; redirection: Redirection } {
+	const link = links[url]
+
+	// the url provided was the end of the line
+	// so return it with the provided redirection, otherwise default to none
+	if (!link) {
+		return { url, redirection: redirection || 'none' }
+	}
+
+	// link === string
+	// so try and resolve where it points to
+	if (typeof link === 'string') {
+		return resolve(link, 'temporary')
+	}
+
+	// link === an actual link object
+	return resolve(link.url, link.redirect)
+}
