@@ -2732,17 +2732,16 @@ const links: Links = {
 		redirect: 'permanent'
 	},
 	'https://jordanbpeterson.community/forum': {
-		url: 'https://discuss.jordanbpeterson.community',
+		url: 'https://discuss.bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	},
 	'https://jordanbpeterson.community/calendar': {
 		url:
-			'https://discuss.jordanbpeterson.community/t/please-unsubscribe-from-the-calendar-subscription/474',
+			'https://discuss.bevry.me/t/please-unsubscribe-from-the-calendar-subscription/474',
 		redirect: 'permanent'
 	},
 	'https://jordanbpeterson.community/lecture-notes': {
-		url:
-			'https://discuss.jordanbpeterson.community/search?q=tags%3Ajbp%2Blecture',
+		url: 'https://discuss.bevry.me/t/about-the-study-category/991/1',
 		redirect: 'permanent'
 	},
 	'https://jordanbpeterson.community/reading-group': {
