@@ -2724,6 +2724,16 @@ const links: Links = {
 	'https://discuss.bevry.me/t/about-the-philosophy-category/504': {
 		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
+	},
+
+	// jbp community
+	'https://jordanbpeterson.community/study-group': {
+		url: 'https://bevry.me/study-group',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/lecture-notes': {
+		url: 'https://discuss.bevry.me/t/about-the-study-category/991/1',
+		redirect: 'permanent'
 	}
 }
 
