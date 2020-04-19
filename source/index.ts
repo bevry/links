@@ -2188,14 +2188,14 @@ const links: Links = {
 		description:
 			'Bevry is a cooperative aimed to see everyone do what they love, share it with the world, and live well'
 	},
-	'https://bevry.me/projects/jbpcommunity': {
+	'https://bevry.me/projects/jbp-community': {
 		name: 'Jordan B Peterson Community',
 		url:
 			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Jordan-B-Peterson-Community_su4d_#_luFd1',
 		description: 'Learn about Jordan B Peterson Community, a Bevry project'
 	},
-	'https://bevry.me/projects/jbp-community':
-		'https://bevry.me/projects/jbpcommunity',
+	'https://bevry.me/projects/jbpcommunity':
+		'https://bevry.me/projects/jbp-community',
 	'https://bevry.me/projects/mood-journal': {
 		name: 'Mood Journal',
 		url:
@@ -2733,6 +2733,10 @@ const links: Links = {
 	},
 	'https://jordanbpeterson.community/lecture-notes': {
 		url: 'https://discuss.bevry.me/t/about-the-study-category/991/1',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/': {
+		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	}
 }
