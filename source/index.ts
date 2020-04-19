@@ -2727,15 +2727,97 @@ const links: Links = {
 	},
 
 	// jbp community
+	'https://jordanbpeterson.community/newsletter': {
+		url: 'https://goo.gl/forms/qgIjkJ8SYEpLCVY83',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/forum': {
+		url: 'https://discuss.jordanbpeterson.community',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/calendar': {
+		url:
+			'https://discuss.jordanbpeterson.community/t/please-unsubscribe-from-the-calendar-subscription/474',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/lecture-notes': {
+		url:
+			'https://discuss.jordanbpeterson.community/search?q=tags%3Ajbp%2Blecture',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/reading-group': {
+		url:
+			'https://www.goodreads.com/group/show/253798-jordan-b-peterson-reading-group',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/reading-list': {
+		url:
+			'https://www.goodreads.com/group/bookshelf/253798-jordan-b-peterson-reading-group?utf8=✓&order=d&sort=date_finished&view=main&per_page=200',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/youtube': {
+		url: 'https://bevry.me/youtube',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/twitter': {
+		url: 'https://twitter.com/JBPCommunity',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/discord': {
+		url: 'https://discord.gg/j2PqA7S',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/reddit': {
+		url: 'https://www.reddit.com/r/JordanPeterson',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/meetups': {
+		url:
+			'https://www.meetup.com/find/?allMeetups=false&keywords=jordan+peterson&radius=Infinity',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/facebook-liberal-group': {
+		url: 'https://www.facebook.com/groups/1408546319260687/',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/facebook-study-group': {
+		url: 'https://www.facebook.com/groups/198567587146349/',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/source': {
+		url: 'https://bevry.me/projects/jbp-community',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/feedback': {
+		url: 'https://discuss.bevry.me/c/feedback',
+		redirect: 'permanent'
+	},
 	'https://jordanbpeterson.community/study-group': {
 		url: 'https://bevry.me/study-group',
 		redirect: 'permanent'
 	},
-	'https://jordanbpeterson.community/lecture-notes': {
-		url: 'https://discuss.bevry.me/t/about-the-study-category/991/1',
-		redirect: 'permanent'
-	},
-	'https://jordanbpeterson.community/': {
+	'https://jordanbpeterson.community/home': 'https://jordanbpeterson.community',
+	'https://jordanbpeterson.community/podcast-join':
+		'https://jordanbpeterson.community/home',
+	'https://jordanbpeterson.community/podcast':
+		'https://jordanbpeterson.community/youtube',
+	'https://jordanbpeterson.community/study-group-recordings':
+		'https://jordanbpeterson.community/youtube',
+	'https://jordanbpeterson.community/study-group-hangout':
+		'https://jordanbpeterson.community/study-group',
+	'https://jordanbpeterson.community/study-group-calendar':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/calendar.ics':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/macos-calendar-support':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/ios-calendar-support':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/outlook-calendar-support':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/google-calendar-support':
+		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	}
