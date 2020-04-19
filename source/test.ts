@@ -14,9 +14,11 @@ function getLink(value: Link | string): Link | string {
 	return links[getURL(value)]
 }
 
+const keys = Object.keys(links)
+
 kava.suite('links', function(suite, test) {
 	test('all links resolve to a valid url', function() {
-		Object.keys(links).forEach(function(key) {
+		keys.forEach(function(key, index) {
 			let value = links[key],
 				destination
 			// recurse
@@ -26,14 +28,23 @@ kava.suite('links', function(suite, test) {
 				}
 				value = destination
 			}
-			// convert
+			// check resolves to a full entry
 			if (typeof value === 'string') {
-				throw new Error(`link ${value} did not resolve to a full entry`)
-				// value = { url: value }
+				throw new Error(
+					`link [${key}] did not resolve to a full entry with [${value}]`
+				)
 			}
-			// check
+			// check has a valid url
 			if (!value.url || /^[a-zA-Z-]+$/.test(value.url)) {
-				throw new Error(`[${key}] results in invalid url [${value.url}]`)
+				throw new Error(`link [${key}] results in invalid url [${value.url}]`)
+			}
+			// check there are no items after this that contains it
+			for (const other of keys.slice(index + 1)) {
+				if (other.startsWith(key)) {
+					throw new Error(
+						`link [${key}] had an item later that contains it [${other}]`
+					)
+				}
 			}
 			// update
 			links[key] = value

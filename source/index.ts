@@ -345,6 +345,20 @@ const links: Links = {
 		color: '#f36a3d',
 		tags: ['referral', 'recommendation']
 	},
+	'https://balupton.com/argent': {
+		name: 'Argent',
+		url: 'https://balupton.argent.xyz',
+		description: 'Support Benjamin Lupton via Argent',
+		color: '#f36a3d',
+		tags: ['social', 'donate']
+	},
+	'https://bevry.me/argent': {
+		name: 'Argent',
+		url: 'https://bevry.argent.xyz',
+		description: 'Support Bevry via Argent',
+		color: '#f36a3d',
+		tags: ['social', 'donate']
+	},
 	'https://balupton.com/coinjar': {
 		name: 'CoinJar',
 		url: 'https://www.coinjar.com/_ref/@balupton',
@@ -622,14 +636,6 @@ const links: Links = {
 		color: '#0aa3df',
 		tags: ['referral']
 	},
-	'https://balupton.com/transferwise': {
-		name: 'TransferWise',
-		url: 'https://prf.hn/l/704qP87',
-		description:
-			'Use TransferWise to send money around the world as quickly and cheaply as possible',
-		color: '#223049',
-		tags: ['referral', 'recommendation']
-	},
 	'https://balupton.com/transferwise/card': {
 		name: 'TransferWise MasterCard',
 		url: 'https://prf.hn/l/6bEmMGr',
@@ -638,13 +644,9 @@ const links: Links = {
 		color: '#223049',
 		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/transferwise/borderless': {
-		name: 'TransferWise Borderless',
-		url: 'https://prf.hn/l/ryVQjn6',
-		description:
-			'Use TransferWise Borderless to have multicurrency bank accounts all around the world',
-		color: '#223049',
-		tags: ['referral', 'recommendation']
+	'https://balupton.com/transferwisecard': {
+		url: 'https://balupton.com/transferwise/card',
+		redirect: 'permanent'
 	},
 	'https://balupton.com/transferwise/borderless/au': {
 		name: 'TransferWise Borderless',
@@ -654,18 +656,42 @@ const links: Links = {
 		color: '#223049',
 		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/transferwisecard':
-		'https://balupton.com/transferwise/card',
-	'https://balupton.com/transferwiseborderless':
-		'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/travel-banking':
-		'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/international-banking':
-		'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/transferwise-borderless':
-		'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/transferwiseborderless-au':
-		'https://balupton.com/transferwise/borderless/au',
+	'https://balupton.com/transferwiseborderless-au': {
+		url: 'https://balupton.com/transferwise/borderless/au',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/transferwise/borderless': {
+		name: 'TransferWise Borderless',
+		url: 'https://prf.hn/l/ryVQjn6',
+		description:
+			'Use TransferWise Borderless to have multicurrency bank accounts all around the world',
+		color: '#223049',
+		tags: ['referral', 'recommendation']
+	},
+	'https://balupton.com/transferwise-borderless': {
+		url: 'https://balupton.com/transferwise/borderless',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/transferwiseborderless': {
+		url: 'https://balupton.com/transferwise/borderless',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/transferwise': {
+		name: 'TransferWise',
+		url: 'https://prf.hn/l/704qP87',
+		description:
+			'Use TransferWise to send money around the world as quickly and cheaply as possible',
+		color: '#223049',
+		tags: ['referral', 'recommendation']
+	},
+	'https://balupton.com/travel-banking': {
+		url: 'https://balupton.com/transferwise/borderless',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/international-banking': {
+		url: 'https://balupton.com/transferwise/borderless',
+		redirect: 'permanent'
+	},
 	'https://balupton.com/tradingview': {
 		name: 'TradingView',
 		url: 'http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=4529',
@@ -701,6 +727,17 @@ const links: Links = {
 		color: '#1f6473',
 		tags: ['referral']
 	},
+	'https://balupton.com/circlemedia': {
+		name: 'Circle Media',
+		url: 'http://mbsy.co/dSfLv',
+		description:
+			'Use Circle to track and limit your internet usage over any device',
+		color: '#00b7d9',
+		tags: ['referral']
+	},
+	'https://balupton.com/circleinternet': 'https://balupton.com/circlemedia',
+	'https://balupton.com/circlepay': 'https://balupton.com/circle',
+	'https://balupton.com/circlefinance': 'https://balupton.com/circle',
 	'https://balupton.com/circle': {
 		name: 'Circle Finance',
 		url: 'https://www.circle.com/invite/DTIKU0',
@@ -708,8 +745,6 @@ const links: Links = {
 		color: '#aacc38',
 		tags: ['referral']
 	},
-	'https://balupton.com/circlepay': 'https://balupton.com/circle',
-	'https://balupton.com/circlefinance': 'https://balupton.com/circle',
 	'https://balupton.com/coinseed': {
 		name: 'Coinseed',
 		url: 'https://coinseed.app.link/lnFvVQzVzN',
@@ -930,15 +965,6 @@ const links: Links = {
 		color: '#7bc4c4',
 		tags: ['referral']
 	},
-	'https://balupton.com/circlemedia': {
-		name: 'Circle Media',
-		url: 'http://mbsy.co/dSfLv',
-		description:
-			'Use Circle to track and limit your internet usage over any device',
-		color: '#00b7d9',
-		tags: ['referral']
-	},
-	'https://balupton.com/circleinternet': 'https://balupton.com/circlemedia',
 
 	// Links
 	'https://balupton.com/peac': {
@@ -965,6 +991,12 @@ const links: Links = {
 		description:
 			'Free Culture is the notion that everything should be free, in terms of free as in no money needed, and free as in people can re-use it liberally. Learn about Free Culture on Wikipedia.'
 	},
+	'https://balupton.com/bookupdates': {
+		name: 'Book Newsletter',
+		url: 'https://confirmsubscription.com/h/r/36CE01ACCFE65688',
+		description: 'Subscribe for updates when I publish new books'
+	},
+	'https://balupton.com/books': 'https://balupton.com/bookupdates',
 	'https://balupton.com/book': {
 		name: 'Intentionally Left Blank',
 		url: 'https://gumroad.com/l/vKuF',
@@ -972,12 +1004,6 @@ const links: Links = {
 			'Author of the mostly likely not the best non-best selling book in cultural literature right now.'
 	},
 	'https://balupton.com/author': 'https://balupton.com/book',
-	'https://balupton.com/bookupdates': {
-		name: 'Book Newsletter',
-		url: 'https://confirmsubscription.com/h/r/36CE01ACCFE65688',
-		description: 'Subscribe for updates when I publish new books'
-	},
-	'https://balupton.com/books': 'https://balupton.com/bookupdates',
 	'https://balupton.com/privileged': {
 		name: 'privileged',
 		url: 'https://www.youtube.com/watch?v=cRsYwu8uD4I',
@@ -1006,13 +1032,6 @@ const links: Links = {
 		url: 'https://en.wikipedia.org/wiki/Global_nomad',
 		description:
 			'Global nomad is a term applied to people who are living a mobile and international lifestyle.'
-	},
-	'https://balupton.com/v': {
-		name: 'Vegan',
-		url:
-			'https://github.com/balupton/plant-vs-animal-products/blob/master/README.md#readme',
-		description:
-			'Veganism is the stance that other lives are not ours to own. Vegans commonly associate this with the practice of reducing their harm to all lives, primarily through a strict-vegetarian diet and lifestyle. Learn about what turned me vegan.'
 	},
 	'https://balupton.com/vegan': {
 		name: 'Vegan',
@@ -1050,17 +1069,24 @@ const links: Links = {
 		url: 'https://www.quora.com/profile/Benjamin-Lupton',
 		description: "Quora is the world's largest Q&A website"
 	},
+	'https://hostel.bevry.me/list': {
+		name: 'Setup Hostels around the world',
+		url: 'https://hostel.bevry.me/compare',
+		description: 'There are now more than 30 Startup Hostels around the world!'
+	},
 	'https://hostel.bevry.me': {
 		name: 'Startup Hostel',
 		url: 'https://twitter.com/startuphostel',
 		description:
 			'Startup Hostel is a co-work and co-live initiative. Learn about Startup Hostel on its website.'
 	},
-	'https://balupton.com/hostel': 'https://hostel.bevry.me',
 	'https://balupton.com/hostellist': {
-		name: 'Setup Hostels around the world',
-		url: 'https://hoste.bevry.me/compare',
-		description: 'There are now more than 30 Startup Hostels around the world!'
+		url: 'https://hostel.bevry.me/list',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/hostel': {
+		url: 'https://hostel.bevry.me',
+		redirect: 'permanent'
 	},
 	'https://balupton.com/historyjs': {
 		name: 'History.js',
@@ -1173,12 +1199,6 @@ const links: Links = {
 		url: 'https://en.wikipedia.org/wiki/Swift_(programming_language)',
 		description:
 			'Swift is a high-level programming language used to create powerful applications.'
-	},
-	'https://balupton.com/c': {
-		name: 'C',
-		url: 'https://en.wikipedia.org/wiki/C_%28programming_language%29',
-		description:
-			'C is a low-level programming language used to create powerful applications.'
 	},
 	'https://balupton.com/csharp': {
 		name: 'C#',
@@ -1498,17 +1518,17 @@ const links: Links = {
 		description:
 			'Windows Live Messenger was a popular instant messaging client developed for multiple Microsoft platforms.'
 	},
-	'https://balupton.com/webct': {
-		name: 'WebCT',
-		url: 'https://en.wikipedia.org/wiki/WebCT',
-		description:
-			'WebCT also called Blackboard Learning System, is an online proprietary virtual learning environment system that is licensed to colleges and other institutions and used in many campuses for e-learning.'
-	},
 	'https://balupton.com/webctexploit': {
 		name: 'WebCT Security Advisory',
 		url: 'https://gist.github.com/balupton/3cb9a0e066ebb899d2be',
 		description:
 			'My first security advisory: WebCT 4.x Javascript Session Stealer Exploits'
+	},
+	'https://balupton.com/webct': {
+		name: 'WebCT',
+		url: 'https://en.wikipedia.org/wiki/WebCT',
+		description:
+			'WebCT also called Blackboard Learning System, is an online proprietary virtual learning environment system that is licensed to colleges and other institutions and used in many campuses for e-learning.'
 	},
 	'https://balupton.com/blogs/dev?description=webct_session_stealer_exploit': {
 		url: 'https://balupton.com/webctexploit',
@@ -1578,17 +1598,17 @@ const links: Links = {
 		description:
 			'A single-page application is a web application or web site that fits on a single web page with the goal of providing a more fluent user experience similar to a desktop application.'
 	},
-	'https://balupton.com/aloha': {
-		name: 'Aloha Editor',
-		url: 'http://www.alohaeditor.org/',
-		description:
-			'Aloha Editor is an open source WYSIWYG editor that can be used in webpages. Aloha Editor aims to be easy to use and fast in editing, and allows advanced inline editing.'
-	},
 	'https://balupton.com/alohadevcon': {
 		name: 'Aloha Editor Dev Con',
 		url: 'https://www.youtube.com/watch?v=btxLv8MPsJI',
 		description:
 			'Aloha Editor Dev Con was held in Vienna, Austria in 2011 and went for 2 weeks.'
+	},
+	'https://balupton.com/aloha': {
+		name: 'Aloha Editor',
+		url: 'http://www.alohaeditor.org/',
+		description:
+			'Aloha Editor is an open source WYSIWYG editor that can be used in webpages. Aloha Editor aims to be easy to use and fast in editing, and allows advanced inline editing.'
 	},
 	'https://balupton.com/metarefresh': {
 		name: 'Meta Refresh',
@@ -1735,12 +1755,6 @@ const links: Links = {
 		description: 'Send Benjamin an email',
 		redirect: 'page'
 	},
-	'https://balupton.com/burnout': {
-		name: 'Burnout',
-		url: 'http://burnout.io',
-		description:
-			'Burnout is a state of emotional, mental, and physical exhaustion caused by excessive and prolonged stress.'
-	},
 	'https://balupton.com/anomie': {
 		name: 'Anomie',
 		url: 'https://en.wikipedia.org/wiki/Anomie',
@@ -1814,6 +1828,12 @@ const links: Links = {
 		name: 'Benjamin Lupton on Burnout',
 		url: 'https://www.youtube.com/watch?v=Lt_oKuaFgrg',
 		description: 'A talk of mine on burnout in web development'
+	},
+	'https://balupton.com/burnout': {
+		name: 'Burnout',
+		url: 'http://burnout.io',
+		description:
+			'Burnout is a state of emotional, mental, and physical exhaustion caused by excessive and prolonged stress.'
 	},
 	'https://balupton.com/elegant': {
 		name: 'Elegantly Produce & Consume Compiled Packages',
@@ -1926,12 +1946,20 @@ const links: Links = {
 		color: '#f50',
 		tags: ['social']
 	},
+	'https://balupton.com/couchsurfer': {
+		url: 'https://balupton.com/couchsurfing',
+		redirect: 'temporary'
+	},
 	'https://balupton.com/couchsurfing': {
 		name: 'Couchsurfing',
 		url: 'http://couchsurfing.com/people/balupton',
 		description: 'View my profile on Couchsurfing',
 		color: '#ed6542',
 		tags: ['social']
+	},
+	'https://balupton.com/couch': {
+		url: 'https://balupton.com/couchsurfing',
+		redirect: 'permanent'
 	},
 	'https://balupton.com/tumblr': {
 		name: 'Tumblr',
@@ -2004,7 +2032,6 @@ const links: Links = {
 			'https://www.dropbox.com/s/jch9h79iclcl2qw/LUPTON%20-%20Resume.pdf?dl=0',
 		description: 'View my hand-crafted resume'
 	},
-	'https://balupton.com/resume': 'https://balupton.com/cv',
 	'https://balupton.com/resume/linkedin': {
 		name: 'LinkedIn Resume',
 		url: 'https://www.linkedin.com/in/balupton/',
@@ -2020,6 +2047,7 @@ const links: Links = {
 		url: 'https://angel.co/balupton',
 		description: 'View my resume on Angel List'
 	},
+	'https://balupton.com/resume': 'https://balupton.com/cv',
 	'https://balupton.com/atlas-shrugged': {
 		name: 'Atlas Shrugged',
 		description: 'Ayn Rand — Atlas Shrugged',
@@ -2084,30 +2112,6 @@ const links: Links = {
 		url: 'https://bevry.me/contracts',
 		redirect: 'permanent'
 	},
-	'https://balupton.com/gh': {
-		url: 'https://balupton.com/github',
-		redirect: 'permanent'
-	},
-	'https://balupton.com/g': {
-		url: 'https://balupton.com/github',
-		redirect: 'permanent'
-	},
-	'https://balupton.com/t': {
-		url: 'https://balupton.com/twitter',
-		redirect: 'permanent'
-	},
-	'https://balupton.com/couch': {
-		url: 'https://balupton.com/couchsurfing',
-		redirect: 'permanent'
-	},
-	'https://balupton.com/couchsurfer': {
-		url: 'https://balupton.com/couchsurfing',
-		redirect: 'temporary'
-	},
-	'https://balupton.com/s': {
-		url: 'https://balupton.com/sustainability',
-		redirect: 'permanent'
-	},
 
 	// balupton.com
 	'https://balupton.com/zoom': {
@@ -2136,12 +2140,6 @@ const links: Links = {
 	},
 
 	// bevry.me
-	'https://bevry.me': {
-		name: 'Bevry',
-		url: 'https://discuss.bevry.me/t/welcome-to-bevry/8/1',
-		description:
-			'Bevry is a cooperative aimed to see everyone do what they love, share it with the world, and live well'
-	},
 	'https://bevry.me/projects/jbp-community': {
 		name: 'Jordan B Peterson Community',
 		url:
@@ -2150,6 +2148,7 @@ const links: Links = {
 	},
 	'https://bevry.me/projects/jbpcommunity':
 		'https://bevry.me/projects/jbp-community',
+	'https://bevry.me/jbp-community': 'https://bevry.me/projects/jbp-community',
 	'https://bevry.me/projects/mood-journal': {
 		name: 'Mood Journal',
 		url:
@@ -2223,18 +2222,18 @@ const links: Links = {
 		description:
 			'Bevry hosts a weekly study group for discussions about philosophy'
 	},
-	'https://bevry.me/meet': 'https://bevry.me/study-group',
 	'https://bevry.me/meetings': 'https://bevry.me/study-group',
-	'https://bevry.me/discord': {
-		url: 'https://discord.gg/DuBp9Jw',
-		redirect: 'temporary'
-	},
+	'https://bevry.me/meet': 'https://bevry.me/study-group',
 	'https://bevry.me/discord/dev': {
 		url: 'https://discord.gg/AGVSmdg',
 		redirect: 'temporary'
 	},
 	'https://bevry.me/discord/meetings': {
 		url: 'https://discord.gg/y5PBMar',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/discord': {
+		url: 'https://discord.gg/DuBp9Jw',
 		redirect: 'temporary'
 	},
 	'https://bevry.me/livestream': {
@@ -2245,13 +2244,13 @@ const links: Links = {
 		url: 'https://github.com/bevry/website',
 		redirect: 'temporary'
 	},
-	'https://bevry.me/podcast': {
-		url: 'https://bevry.me/youtube',
-		redirect: 'temporary'
-	},
 	'https://bevry.me/podcaster': {
 		url: 'https://bevry.me/podcast',
 		redirect: 'permanent'
+	},
+	'https://bevry.me/podcast': {
+		url: 'https://bevry.me/youtube',
+		redirect: 'temporary'
 	},
 
 	//  bevry.me / tos
@@ -2266,13 +2265,13 @@ const links: Links = {
 	},
 
 	//  bevry.me / payment
-	'https://bevry.me/fund': {
-		url: 'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
-		redirect: 'temporary'
-	},
 	'https://bevry.me/funding': {
 		url: 'https://bevry.me/fund',
 		redirect: 'permanent'
+	},
+	'https://bevry.me/fund': {
+		url: 'https://discuss.bevry.me/t/bevrys-funding-services/649/1',
+		redirect: 'temporary'
 	},
 	'https://bevry.me/donate': 'https://bevry.me/fund',
 	'https://bevry.me/bounties': 'https://bevry.me/fund',
@@ -2635,10 +2634,6 @@ const links: Links = {
 		url: 'https://bevry.me/projects',
 		redirect: 'permanent'
 	},
-	'https://discuss.bevry.me/c/projects': {
-		url: 'https://bevry.me/projects',
-		redirect: 'permanent'
-	},
 	'https://discuss.bevry.me/c/projects/invest-10': {
 		url: 'https://bevry.me/projects/tithe',
 		redirect: 'permanent'
@@ -2715,6 +2710,10 @@ const links: Links = {
 		url: 'https://bevry.me/projects/landing-kit',
 		redirect: 'permanent'
 	},
+	'https://discuss.bevry.me/c/projects': {
+		url: 'https://bevry.me/projects',
+		redirect: 'permanent'
+	},
 	'https://discuss.bevry.me/c/sorters-club': {
 		url: 'https://bevry.me/study-group',
 		redirect: 'permanent'
@@ -2767,11 +2766,6 @@ const links: Links = {
 	},
 	'https://jordanbpeterson.community/forum': {
 		url: 'https://discuss.bevry.me/projects/jbp-community',
-		redirect: 'permanent'
-	},
-	'https://jordanbpeterson.community/calendar': {
-		url:
-			'https://discuss.bevry.me/t/please-unsubscribe-from-the-calendar-subscription/474',
 		redirect: 'permanent'
 	},
 	'https://bevry.me/jbp-lecture-notes': {
@@ -2837,44 +2831,65 @@ const links: Links = {
 		url: 'https://discuss.bevry.me/c/feedback',
 		redirect: 'permanent'
 	},
+	'https://jordanbpeterson.community/home': {
+		url: 'https://jordanbpeterson.community',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/podcast-join': {
+		url: 'https://jordanbpeterson.community',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/podcast': {
+		url: 'https://jordanbpeterson.community/youtube',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/study-group-recordings': {
+		url: 'https://jordanbpeterson.community/youtube',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/study-group-hangout': {
+		url: 'https://jordanbpeterson.community/study-group',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/study-group-calendar': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
 	'https://jordanbpeterson.community/study-group': {
 		url: 'https://bevry.me/study-group',
 		redirect: 'permanent'
 	},
-	'https://jordanbpeterson.community/home': 'https://jordanbpeterson.community',
-	'https://jordanbpeterson.community/podcast-join':
-		'https://jordanbpeterson.community/home',
-	'https://jordanbpeterson.community/podcast':
-		'https://jordanbpeterson.community/youtube',
-	'https://jordanbpeterson.community/study-group-recordings':
-		'https://jordanbpeterson.community/youtube',
-	'https://jordanbpeterson.community/study-group-hangout':
-		'https://jordanbpeterson.community/study-group',
-	'https://jordanbpeterson.community/study-group-calendar':
-		'https://jordanbpeterson.community/calendar',
-	'https://jordanbpeterson.community/calendar.ics':
-		'https://jordanbpeterson.community/calendar',
-	'https://jordanbpeterson.community/macos-calendar-support':
-		'https://jordanbpeterson.community/calendar',
-	'https://jordanbpeterson.community/ios-calendar-support':
-		'https://jordanbpeterson.community/calendar',
-	'https://jordanbpeterson.community/outlook-calendar-support':
-		'https://jordanbpeterson.community/calendar',
-	'https://jordanbpeterson.community/google-calendar-support':
-		'https://jordanbpeterson.community/calendar',
+	'https://jordanbpeterson.community/calendar.ics': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/macos-calendar-support': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/ios-calendar-support': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/outlook-calendar-support': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/google-calendar-support': {
+		url: 'https://jordanbpeterson.community/calendar',
+		redirect: 'permanent'
+	},
+	'https://jordanbpeterson.community/calendar': {
+		url:
+			'https://discuss.bevry.me/t/please-unsubscribe-from-the-calendar-subscription/474',
+		redirect: 'permanent'
+	},
 	'https://jordanbpeterson.community': {
 		url: 'https://bevry.me/projects/jbp-community',
 		redirect: 'permanent'
 	},
 
 	// global aliases
-	argent: {
-		name: 'Argent',
-		url: 'https://balupton.argent.xyz',
-		description: 'Support me via Argent',
-		color: '#f36a3d',
-		tags: ['social', 'donate']
-	},
 	collide: {
 		name: 'Collide',
 		url: 'https://www.collide.com/creator/balupton',
@@ -2967,12 +2982,50 @@ const links: Links = {
 		color: 'rgb(228, 121, 17)',
 		tags: ['social', 'donate']
 	},
+
 	// if this becomes domain specific, ensure bevry.me and balupton.com both link to them
-	jbpcommunity: 'https://bevry.me',
-	jbpstudygroup: 'https://bevry.me/meet',
-	jbpsg: 'https://bevry.me/meet',
+	jbpcommunity: 'https://bevry.me/jbp-community',
+	jbpstudygroup: 'https://bevry.me/study-group',
+	jbpsg: 'https://bevry.me/study-group',
 	jbpyoutube: 'https://bevry.me/youtube',
-	jbpvids: 'https://bevry.me/youtube'
+	jbpvids: 'https://bevry.me/youtube',
+
+	// have these last
+	'https://balupton.com/gh': {
+		url: 'https://balupton.com/github',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/g': {
+		url: 'https://balupton.com/github',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/t': {
+		url: 'https://balupton.com/twitter',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/s': {
+		url: 'https://balupton.com/sustainability',
+		redirect: 'permanent'
+	},
+	'https://balupton.com/v': {
+		name: 'Vegan',
+		url:
+			'https://github.com/balupton/plant-vs-animal-products/blob/master/README.md#readme',
+		description:
+			'Veganism is the stance that other lives are not ours to own. Vegans commonly associate this with the practice of reducing their harm to all lives, primarily through a strict-vegetarian diet and lifestyle. Learn about what turned me vegan.'
+	},
+	'https://balupton.com/c': {
+		name: 'C',
+		url: 'https://en.wikipedia.org/wiki/C_%28programming_language%29',
+		description:
+			'C is a low-level programming language used to create powerful applications.'
+	},
+	'https://bevry.me': {
+		name: 'Bevry',
+		url: 'https://discuss.bevry.me/t/welcome-to-bevry/8/1',
+		description:
+			'Bevry is a cooperative aimed to see everyone do what they love, share it with the world, and live well'
+	}
 }
 
 export default links
@@ -3050,4 +3103,14 @@ console.log(
 	resolve(resolve('https://bevry.me/gittip').url)
 )
 console.log(follow('https://bevry.me/gittip'))
+
+should result in
+{ url: 'https://bevry.me/jbp-reading-group', redirection: 'permanent' } { url: 'https://bevry.me/jbp-reading-group', redirection: 'none' }
+{ url: 'https://bevry.me/jbp-reading-list', redirection: 'permanent' } { url: 'https://bevry.me/jbp-reading-list', redirection: 'none' }
+{
+  url: 'https://www.goodreads.com/group/bookshelf/253798-jordan-b-peterson-reading-group?utf8=✓&order=d&sort=date_finished&view=main&per_page=200',
+  redirection: 'temporary'
+}
+{ url: 'https://bevry.me/gittip', redirection: 'none' } { url: 'https://bevry.me/gittip', redirection: 'none' }
+{ url: 'https://liberapay.com/bevry', redirection: 'temporary' }
 */
