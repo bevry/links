@@ -40,7 +40,8 @@ const links: Links = {
 	'https://balupton.com/recommendations': {
 		name: 'Recommendations',
 		url: 'https://coda.io/@balupton/gear',
-		description: 'Use my recommendations list to discover apps, services, equipment, and gear that you should be using',
+		description:
+			'Use my recommendations list to discover apps, services, equipment, and gear that you should be using',
 		color: '#000',
 		tags: ['referral', 'recommendation']
 	},
@@ -56,8 +57,10 @@ const links: Links = {
 	},
 	'https://balupton.com/qantas-wellbeing': {
 		name: 'Qantas Wellbeing',
-		url: 'https://go.qantaswellbeing.com/a/key_live_nel0NOrSX1UEasHKwDDwVeghBqfKsZx2?%24identity_id=751804620959329373&channel=Apple%20Notes&feature=invite&type=0&duration=0&source=ios&data=eyIkY2Fub25pY2FsX2lkZW50aWZpZXIiOiJpbnZpdGUtYXF1YWludGFuY2UiLCJnZW5lcmF0ZWRMaW5rSUQiOiIxM0E0NzFDNy0wMzdFLTQ2OUEtOTVGQi04MDZBRTUwQ0U1MDAiLCIkb2dfZGVzY3JpcHRpb24iOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJwdWJsaWNNZW1iZXJJRCI6ImZmODA4MDgxNzA1MDhlZjQwMTcwN2NlN2YyZDExYjJhIiwiJGVtYWlsX3N1YmplY3QiOiJKb2luIEJlbmphbWluIEEgTHVwdG9uIG9uIFFhbnRhcyBXZWxsYmVpbmciLCIkb2dfdGl0bGUiOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJnZW5lcmF0ZWRCeVB1YmxpY01lbWJlcklEIjoiZmY4MDgwODE3MDUwOGVmNDAxNzA3Y2U3ZjJkMTFiMmEiLCJnZW5lcmF0ZWRUaW1lc3RhbXAiOiIxNTgyOTQ0OTE5LjA4NzU4MyIsInJlZmVycmFsQ29kZSI6Im83d3VjejEifQ%3D%3D',
-		description: 'Use Qantas Wellbeing to earn 150 Qantas Points for being active',
+		url:
+			'https://go.qantaswellbeing.com/a/key_live_nel0NOrSX1UEasHKwDDwVeghBqfKsZx2?%24identity_id=751804620959329373&channel=Apple%20Notes&feature=invite&type=0&duration=0&source=ios&data=eyIkY2Fub25pY2FsX2lkZW50aWZpZXIiOiJpbnZpdGUtYXF1YWludGFuY2UiLCJnZW5lcmF0ZWRMaW5rSUQiOiIxM0E0NzFDNy0wMzdFLTQ2OUEtOTVGQi04MDZBRTUwQ0U1MDAiLCIkb2dfZGVzY3JpcHRpb24iOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJwdWJsaWNNZW1iZXJJRCI6ImZmODA4MDgxNzA1MDhlZjQwMTcwN2NlN2YyZDExYjJhIiwiJGVtYWlsX3N1YmplY3QiOiJKb2luIEJlbmphbWluIEEgTHVwdG9uIG9uIFFhbnRhcyBXZWxsYmVpbmciLCIkb2dfdGl0bGUiOiJIZXksIHdhbnQgdG8gZWFybiAxNTAgUWFudGFzIFBvaW50cyBmb3IgYmVpbmcgYWN0aXZlPyBVc2UgbXkgaW52aXRlIGxpbmsgdG8gZG93bmxvYWQgdGhlIFFhbnRhcyBXZWxsYmVpbmcgQXBwLiBDb21wbGV0ZSB5b3VyIGZpcnN0IGNoYWxsZW5nZSAtIGFuZCB0aGUgcG9pbnRzIGFyZSB5b3VycyEiLCJnZW5lcmF0ZWRCeVB1YmxpY01lbWJlcklEIjoiZmY4MDgwODE3MDUwOGVmNDAxNzA3Y2U3ZjJkMTFiMmEiLCJnZW5lcmF0ZWRUaW1lc3RhbXAiOiIxNTgyOTQ0OTE5LjA4NzU4MyIsInJlZmVycmFsQ29kZSI6Im83d3VjejEifQ%3D%3D',
+		description:
+			'Use Qantas Wellbeing to earn 150 Qantas Points for being active',
 		color: '#e40000',
 		tags: ['referral', 'recommendation']
 	},
@@ -78,7 +81,8 @@ const links: Links = {
 	'https://balupton.com/fireflies': {
 		name: 'Fireflies',
 		url: 'https://app.fireflies.ai/login?freecredit=JBS4bOfN',
-		description: 'Use Firelies to take notes for your digital meetings with optional transcription',
+		description:
+			'Use Firelies to take notes for your digital meetings with optional transcription',
 		color: '#FB35A7',
 		tags: ['referral', 'recommendation']
 	},
@@ -210,16 +214,36 @@ const links: Links = {
 		url: 'https://www.safetywing.com/a/24733581',
 		description: 'Use SafetyWing for worldwide travel insurance',
 		color: '#58c5c7',
-		tags: ['referral', 'recommendation', 'best', 'insurance', 'travel', 'health', 'nomad', 'family']
+		tags: [
+			'referral',
+			'recommendation',
+			'best',
+			'insurance',
+			'travel',
+			'health',
+			'nomad',
+			'family'
+		]
 	},
 	'https://balupton.com/travel-insurance': 'https://balupton.com/safetywing',
 	'https://bevry.me/insurance': 'https://balupton.com/safetywing',
 	'https://balupton.com/remotehealth': {
 		name: 'SafetyWing Remote Health',
 		url: 'https://safetywing.com/remote-health/a/24733581',
-		description: 'Use SafetyWing Remote Health for your employer to provide international health care for your remote team',
+		description:
+			'Use SafetyWing Remote Health for your employer to provide international health care for your remote team',
 		color: 'rgb(86, 86, 194)',
-		tags: ['referral', 'recommendation', 'best', 'insurance', 'travel', 'healthcare', 'health', 'nomad', 'team']
+		tags: [
+			'referral',
+			'recommendation',
+			'best',
+			'insurance',
+			'travel',
+			'healthcare',
+			'health',
+			'nomad',
+			'team'
+		]
 	},
 	'https://balupton.com/remote-health': 'https://balupton.com/remotehealth',
 	'https://balupton.com/travel-healthcare': 'https://balupton.com/remotehealth',
@@ -628,12 +652,18 @@ const links: Links = {
 		color: '#223049',
 		tags: ['referral', 'recommendation']
 	},
-	'https://balupton.com/transferwisecard': 'https://balupton.com/transferwise/card',
-	'https://balupton.com/transferwiseborderless': 'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/travel-banking': 'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/international-banking': 'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/transferwise-borderless': 'https://balupton.com/transferwise/borderless',
-	'https://balupton.com/transferwiseborderless-au': 'https://balupton.com/transferwise/borderless/au',
+	'https://balupton.com/transferwisecard':
+		'https://balupton.com/transferwise/card',
+	'https://balupton.com/transferwiseborderless':
+		'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/travel-banking':
+		'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/international-banking':
+		'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/transferwise-borderless':
+		'https://balupton.com/transferwise/borderless',
+	'https://balupton.com/transferwiseborderless-au':
+		'https://balupton.com/transferwise/borderless/au',
 	'https://balupton.com/tradingview': {
 		name: 'TradingView',
 		url: 'http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=4529',
@@ -2158,58 +2188,66 @@ const links: Links = {
 	},
 	'https://bevry.me/projects/jbpcommunity': {
 		name: 'Jordan B Peterson Community',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Jordan-B-Peterson-Community_su4d_#_luFd1',
-		description: "Learn about Jordan B Peterson Community, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Jordan-B-Peterson-Community_su4d_#_luFd1',
+		description: 'Learn about Jordan B Peterson Community, a Bevry project'
 	},
 	'https://bevry.me/projects/mood-journal': {
 		name: 'Mood Journal',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Mood-Journal-for-Apple-Watch_suUZM#_luOH1',
-		description: "Learn about Mood Journal, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Mood-Journal-for-Apple-Watch_suUZM#_luOH1',
+		description: 'Learn about Mood Journal, a Bevry project'
 	},
 	'https://bevry.me/projects/docpad': {
 		name: 'DocPad',
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/DocPad_suu46#_lulmP',
-		description: "Learn about DocPad, a Bevry project"
+		description: 'Learn about DocPad, a Bevry project'
 	},
 	'https://bevry.me/projects/startup-hostel': {
 		name: 'Startup Hostel',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Startup-Hostel_suoqH#_luqNG',
-		description: "Learn about Startup Hostel, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Startup-Hostel_suoqH#_luqNG',
+		description: 'Learn about Startup Hostel, a Bevry project'
 	},
 	'https://bevry.me/projects/automated-trading': {
 		name: 'Automated Trading',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Automated-Trading_suv4o#_luYQ9',
-		description: "Learn about Automated Trading, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Automated-Trading_suv4o#_luYQ9',
+		description: 'Learn about Automated Trading, a Bevry project'
 	},
 	'https://bevry.me/projects/hashistack': {
 		name: 'Hashistack',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Hashistack_suGLp#_lu-xc',
-		description: "Learn about Hashistack, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Hashistack_suGLp#_lu-xc',
+		description: 'Learn about Hashistack, a Bevry project'
 	},
 	'https://bevry.me/projects/interconnect': {
 		name: 'Interconnect',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Interconnect_sursg#_lufDp',
-		description: "Learn about Interconnect, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Interconnect_sursg#_lufDp',
+		description: 'Learn about Interconnect, a Bevry project'
 	},
 	'https://bevry.me/projects/fountain': {
 		name: 'Fountain',
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Fountain_su58a#_lu5wr',
-		description: "Learn about Fountain, a Bevry project"
+		description: 'Learn about Fountain, a Bevry project'
 	},
 	'https://bevry.me/projects/tithe': {
 		name: 'Tithe',
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Tithe_sug5-#_luLCx',
-		description: "Learn about Tithe, a Bevry project"
+		description: 'Learn about Tithe, a Bevry project'
 	},
 	'https://bevry.me/projects/landing-kit': {
 		name: 'Digital Nomad Landing Kit',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Digital-Nomad-Landing-Kit_subIY#_luVTm',
-		description: "Learn about Digital Nomad Landing Kit, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Digital-Nomad-Landing-Kit_subIY#_luVTm',
+		description: 'Learn about Digital Nomad Landing Kit, a Bevry project'
 	},
 	'https://bevry.me/projects/reading-rehab': {
 		name: 'Reading Rehab',
-		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Reading-Rehab_suRLq#_luVYE',
-		description: "Learn about Reading Rehab, a Bevry project"
+		url:
+			'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Reading-Rehab_suRLq#_luVYE',
+		description: 'Learn about Reading Rehab, a Bevry project'
 	},
 	'https://bevry.me/projects': {
 		name: 'Bevry Projects',
@@ -2227,6 +2265,7 @@ const links: Links = {
 		url: 'https://www.youtube.com/channel/UCPkobzBsAIjpItonUT7AU9Q',
 		description: "Watch Bevry's recorded study group sessions"
 	},
+	'https://bevry.me/study-group': 'https://bevry.me/meet',
 	'https://bevry.me/meetings': 'https://bevry.me/meet',
 	'https://bevry.me/discord': 'https://discord.gg/DuBp9Jw',
 	'https://bevry.me/discord/dev': 'https://discord.gg/AGVSmdg',
@@ -2466,6 +2505,220 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/docs/plugin-write': {
 		url: 'https://docpad.bevry.me/extend/plugin-write',
+		redirect: 'permanent'
+	},
+
+	// forum
+	'https://discuss.bevry.me/c/study/film-tv': {
+		url: 'https://discuss.bevry.me/c/study/tv',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/reading-group': {
+		url: 'https://discuss.bevry.me/c/study/books',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/philosophy/bookworms': {
+		url: 'https://discuss.bevry.me/c/study/books',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/site-feedback': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/feedback': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/engineering': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/issues': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/administration/recommendations': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/administration/suggestions': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/administration/software': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/administration/feedback/30': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/administration/feedback': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/t/about-the-feedback-category/614': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/t/about-the-projects-category/2': {
+		url: 'https://discuss.bevry.me/c/build',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/uncategorized': {
+		url: 'https://discuss.bevry.me/c/discuss',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/general': {
+		url: 'https://discuss.bevry.me/c/discuss',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/personal-development': {
+		url: 'https://discuss.bevry.me/tag/praxis',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/praxis1': {
+		url: 'https://discuss.bevry.me/tag/praxis',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/praxis/8': {
+		url: 'https://discuss.bevry.me/tag/praxis',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/praxis': {
+		url: 'https://discuss.bevry.me/tag/praxis',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/t/about-the-praxis-category/15': {
+		url: 'https://discuss.bevry.me/tag/praxis',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/3': {
+		url: 'https://bevry.me/projects',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects': {
+		url: 'https://bevry.me/projects',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/invest-10': {
+		url: 'https://bevry.me/projects/tithe',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/tithe/38': {
+		url: 'https://bevry.me/projects/tithe',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/tithe': {
+		url: 'https://bevry.me/projects/tithe',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/t/about-tithe/674': {
+		url: 'https://bevry.me/projects/tithe',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/interconnect/39': {
+		url: 'https://bevry.me/projects/interconnect',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/interconnect': {
+		url: 'https://bevry.me/projects/interconnect',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/t/about-interconnect/675': {
+		url: 'https://bevry.me/projects/interconnect',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/fountain/32': {
+		url: 'https://bevry.me/projects/fountain',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/fountain': {
+		url: 'https://bevry.me/projects/fountain',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/t/about-fountain/651': {
+		url: 'https://bevry.me/projects/fountain',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/mood-journal-for-apple-watch/41': {
+		url: 'https://bevry.me/projects/mood-journal',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/projects/mood-journal-for-apple-watch': {
+		url: 'https://bevry.me/projects/mood-journal',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/t/about-the-mood-journal-for-apple-watch/677': {
+		url: 'https://bevry.me/projects/mood-journal',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/philosophy/jordanbpeterson/18': {
+		url: 'https://bevry.me/projects/jbp-community',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/philosophy/jordanbpeterson': {
+		url: 'https://bevry.me/projects/jbp-community',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/t/about-the-jordan-b-peterson-community/178': {
+		url: 'https://bevry.me/projects/jbp-community',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/digital-nomad-landing-kit/40': {
+		url: 'https://bevry.me/projects/landing-kit',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/projects/digital-nomad-landing-kit': {
+		url: 'https://bevry.me/projects/landing-kit',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/t/about-the-digital-nomad-landing-kit/676': {
+		url: 'https://bevry.me/projects/landing-kit',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/sorters-club': {
+		url: 'https://bevry.me/study-group',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/vips': {
+		url: 'https://discuss.bevry.me',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/peterson-materials': {
+		url: 'https://discuss.bevry.me/tag/jbp',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/peterson-content': {
+		url: 'https://discuss.bevry.me/tag/jbp',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/maps-of-meaning': {
+		url: 'https://discuss.bevry.me/tag/jbp-meaning',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/bible-series': {
+		url: 'https://discuss.bevry.me/tag/jbp-bible',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/personality-series': {
+		url: 'https://discuss.bevry.me/tag/jbp-personality',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.me/c/jbp-recommended': {
+		url: 'https://discuss.bevry.me/tag/jbp-reading',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/philosophy/20': {
+		url: 'https://bevry.me/tag/philosophy',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/c/philosophy': {
+		url: 'https://bevry.me/tag/philosophy',
+		redirect: 'permanent'
+	},
+	'https://discuss.bevry.met/t/about-the-philosophy-category/504': {
+		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
 	}
 }
