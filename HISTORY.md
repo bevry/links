@@ -1,4 +1,5 @@
 # History
 
-## v1.0.0 2015 October 25
-- Some feature
+## v1.1.0 2020 April 20
+
+-   Added `resolve` and `follow` methods
