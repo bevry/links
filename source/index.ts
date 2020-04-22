@@ -2753,6 +2753,14 @@ const links: Links = {
 		url: 'https://bevry.me/tag/philosophy',
 		redirect: 'permanent'
 	},
+	'https://bevry.me/meaning-crisis/lecture-notes': {
+		url: 'https://discuss.bevry.me/search?q=tags%3Ameaning-crisis%20category%3A44%20order%3Alatest_topic',
+		redirect: 'temporary'
+	},
+	'https://bevry.me/meaning-crisis/meeting-notes': {
+		url: 'https://discuss.bevry.me/search?q=tags%3Ameaning-crisis%20category%3A13%20order%3Alatest_topic',
+		redirect: 'temporary'
+	},
 
 	// jbp community
 	'https://jordanbpeterson.community/newsletter': {
