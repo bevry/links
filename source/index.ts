@@ -2992,7 +2992,13 @@ const links: Links = {
 	jbpsg: 'https://bevry.me/study-group',
 	jbpyoutube: 'https://bevry.me/youtube',
 	jbpvids: 'https://bevry.me/youtube',
-
+	
+	// other
+	'https://balupton.com/lg-faulty': {
+		url: 'https://www.dropbox.com/sh/4wi0bxvqlfc1k5k/AACm20RPDu7xHJ4nMlscuyfza?dl=0',
+		redirect: 'temporary'
+	},
+	
 	// have these last
 	'https://balupton.com/gh': {
 		url: 'https://balupton.com/github',
