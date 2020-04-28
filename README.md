@@ -40,7 +40,8 @@ Collection of Links for Redirection on the Bevry websites
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
 <li>Install: <code>npm install --save @bevry/links</code></li>
-<li>Require: <code>require('@bevry/links')</code></li>
+<li>Import: <code>import * as pkg from ('@bevry/links')</code></li>
+<li>Require: <code>const pkg = require('@bevry/links')</code></li>
 </ul>
 
 <h3><a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
@@ -49,9 +50,7 @@ Collection of Links for Redirection on the Bevry websites
 
 <ul><li><code>@bevry/links/source/index.ts</code> is typescript source code with import for modules</li>
 <li><code>@bevry/links</code> aliases <code>@bevry/links/edition-esnext/index.js</code></li>
-<li><code>@bevry/links/edition-esnext/index.js</code> is typescript compiled against <a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a> for Node.js with require for modules</li></ul>
-
-<p>Environments older than Node.js v12 may need <a href="https://babeljs.io/docs/usage/polyfill/" title="A polyfill that emulates missing ECMAScript environment features">Babel's Polyfill</a> or something similar.</p>
+<li><code>@bevry/links/edition-esnext/index.js</code> is typescript compiled against <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with require for modules</li></ul>
 
 <!-- /INSTALL -->
 

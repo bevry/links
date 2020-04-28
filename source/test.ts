@@ -16,9 +16,9 @@ function getLink(value: Link | string): Link | string {
 
 const keys = Object.keys(links)
 
-kava.suite('links', function(suite, test) {
-	test('all links resolve to a valid url', function() {
-		keys.forEach(function(key, index) {
+kava.suite('links', function (suite, test) {
+	test('all links resolve to a valid url', function () {
+		keys.forEach(function (key, index) {
 			let value = links[key],
 				destination
 			// recurse
@@ -51,7 +51,7 @@ kava.suite('links', function(suite, test) {
 		})
 	})
 
-	test('saving to deployment', function(done) {
+	test('saving to deployment', function (done) {
 		const auth = process.env.SETTER_AUTH
 		if (!auth) {
 			console.warn(new Error('auth is missing'))
@@ -61,10 +61,10 @@ kava.suite('links', function(suite, test) {
 		const value = JSON.stringify(links)
 		fetch(setter, {
 			method: 'PUT',
-			body: value
+			body: value,
 		})
-			.then(res => res.text())
+			.then((res) => res.text())
 			.then(() => done())
-			.catch(e => done(e.toString().replace(auth, 'redacted')))
+			.catch((e) => done(e.toString().replace(auth, 'redacted')))
 	})
 })
