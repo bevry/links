@@ -23,8 +23,6 @@ export interface Links {
 	[key: string]: Link | string
 }
 
-const amazonCode = 'balupton07-20'
-
 const links: Links = {
 	// Feeds
 	'https://balupton.com/feedburner': {
@@ -2989,7 +2987,7 @@ const links: Links = {
 	},
 	wishlist: {
 		name: 'Wishlist',
-		url: `http://amzn.com/w/2F8TXKSNAFG4V?tag=${amazonCode}`,
+		url: 'http://amazon.bevry.workers.dev/hz/wishlist/ls/1SW8QS8G5KU8A',
 		description: 'Buy me something on my Amazon Wishlist',
 		color: 'rgb(228, 121, 17)',
 		tags: ['social', 'donate'],
