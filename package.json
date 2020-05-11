@@ -1,6 +1,6 @@
 {
   "name": "@bevry/links",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Collection of Links for Redirection on the Bevry websites",
   "homepage": "https://github.com/bevry/links",
   "license": "MIT",
@@ -67,7 +67,7 @@
     "url": "https://github.com/bevry/links.git"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "editions": [
     {
@@ -90,7 +90,7 @@
         "require"
       ],
       "engines": {
-        "node": "12"
+        "node": "14"
       }
     }
   ],
@@ -152,10 +152,7 @@
     "singleQuote": true
   },
   "boundation": {
-    "desiredNodeVersion": 12,
-    "minimumSupportNodeVersion": 12,
-    "maximumSupportNodeVersion": 12,
-    "minimumTestNodeVersion": 12,
-    "maximumTestNodeVersion": 12
+    "ltsNodeOnly": true,
+    "desiredNodeOnly": true
   }
 }
