@@ -1,19 +1,24 @@
+version: ~> 1.0
 sudo: false
 language: node_js
 node_js:
-- '12'
+  - '12'
 matrix:
   fast_finish: true
   allow_failures: []
 cache: npm
 install:
-- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-install.bash)"
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-install.bash)"
 before_script:
-- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-verify.bash)"
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-verify.bash)"
 after_success:
-- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/surge.bash)"
-- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-publish.bash)"
-notifications:
-  email:
-    recipients:
-      secure: h0TLZvcpVi/E1aYgrfl8Iy8iuPGvn/zI3YhaKYAvpg2PdNZlhn7Ai3wDxzL6TGzEHiEt5RSnOlDaB+ZYYnbLhghALk8KOs2LTt9ssy6qVhgVGTLgRDEFjN0tU6Is+QLHrtOqz0ybnLbmst5FSXpgBHIb7RBtGwkeX4pb8IreMzT/KwC8ZEcjKlmSUvOFOCh5Lm4owPnqr/IX4+lN2tZckkVccG01FdTzNBG5zWKuMausFWS75WyeUhmjRsL8SzIS2tDJI7q5DKj9E/fkhdXnq6HJVwoRLbYok3kBPoJbggbPIzkTP35cXlkrgENMWBEz6cghQOMObTujRJF0b/BVT8iTWlo4Bl5UIU26GaBh0QnJ7+8s9imhHsi4nfANkSL2v/Db1aXROzdTjxC/cl8jcmNMM3C+pvOkKq/t0cNhgGs6Ii9ja6Aswxq7bLHRKXq96JX45HCeQiG39hLWbAwthskpGaUPHRwtTwN4/fyiSssVnisyFwujztXUGF5K8jPMXnKIDhkeuWMeXPRiBWumreDh4sNYli8LcaU1J/Wekv1yRuNtFs2XSs4SYCAa53VDOlPob0+Xohd8SL/7k2TNHiUJUZjuFGIwEqj/3hK+iCT7lImLLjUhpRZnZL25t3OEta1RHofyDqsfqezxzp4jYezFC5/XKCXhY50N0ia59zw=
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/surge.bash)"
+  - >-
+    eval "$(curl -fsSL
+    https://raw.githubusercontent.com/bevry/awesome-travis/0268a1f12d5ebf5e18aa029e4b32ffd432f746a9/scripts/node-publish.bash)"

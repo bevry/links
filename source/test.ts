@@ -1,7 +1,7 @@
 /* eslint no-cond-assign:0 */
 import kava from 'kava'
 import links, { Link } from './index.js'
-import { fetch } from 'fetch-h2'
+import fetch from 'node-fetch'
 
 function getURL(value: Link | string): string {
 	if (typeof value === 'string') {
