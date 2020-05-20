@@ -50,13 +50,12 @@
     }
   },
   "funding": "https://bevry.me/fund",
-  "author": "2019+ Benjamin Lupton <b@lupton.cc>",
+  "author": "2019+ Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc>"
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
-    "Benjamin Lupton (https://github.com/balupton)",
-    "Benjamin Lupton <b@lupton.cc>"
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
     "url": "https://github.com/bevry/links/issues"
