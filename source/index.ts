@@ -497,6 +497,22 @@ const links: Links = {
 		color: '#ff401e',
 		tags: ['referral', 'recommendation'],
 	},
+	'https://bevry.me/brave/youtube': {
+		name: 'Brave',
+		url: 'https://brave.com/jor666',
+		description:
+			'Use Brave Browser as a secure and privacy focused replacement for Google Chrome that rewards content creators',
+		color: '#ff401e',
+		tags: ['referral', 'recommendation'],
+	},
+	'https://bevry.me/brave': {
+		name: 'Brave',
+		url: 'https://brave.com/bev401',
+		description:
+			'Use Brave Browser as a secure and privacy focused replacement for Google Chrome that rewards content creators',
+		color: '#ff401e',
+		tags: ['referral', 'recommendation'],
+	},
 	'https://balupton.com/collideref': {
 		name: 'Collide',
 		url: 'https://www.collide.com/creator/onboard/signup?os=referral-r4276',
