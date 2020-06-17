@@ -55,6 +55,13 @@ const links: Links = {
 		color: '#FFCE00',
 		tags: ['referral', 'recommendation'],
 	},
+	'https://balupton.com/up': {
+		name: 'Up',
+		url: 'https://hook.up.me/balupton',
+		description: 'Use Up as your Australian bank account',
+		color: '#ff7a64',
+		tags: ['referral', 'recommendation'],
+	},
 	'https://balupton.com/streamlabs': {
 		name: 'Streamlabs',
 		url: 'https://streamlabs.com/editor?promo=balupton-b5ee-10',
