@@ -2,6 +2,8 @@
 import kava from 'kava'
 import links, { Link } from './index.js'
 import fetch from 'node-fetch'
+import { env } from 'process'
+const { SETTER_AUTH } = env
 
 function getURL(value: Link | string): string {
 	if (typeof value === 'string') {
@@ -52,12 +54,11 @@ kava.suite('links', function (suite, test) {
 	})
 
 	test('saving to deployment', function (done) {
-		const auth = process.env.SETTER_AUTH
-		if (!auth) {
+		if (!SETTER_AUTH) {
 			console.warn(new Error('auth is missing'))
 			return done()
 		}
-		const setter = `https://editor.bevry.workers.dev/setter?auth=${auth}&key=links`
+		const setter = `https://editor.bevry.workers.dev/setter?auth=${SETTER_AUTH}&key=links`
 		const value = JSON.stringify(links)
 		fetch(setter, {
 			method: 'PUT',
@@ -65,6 +66,6 @@ kava.suite('links', function (suite, test) {
 		})
 			.then((res) => res.text())
 			.then(() => done())
-			.catch((e) => done(e.toString().replace(auth, 'redacted')))
+			.catch((e) => done(e.toString().replace(SETTER_AUTH, 'redacted')))
 	})
 })
