@@ -2247,8 +2247,13 @@ const links: Links = {
 	},
 	'https://bevry.me/meetings': 'https://bevry.me/study-group',
 	'https://bevry.me/meet': 'https://bevry.me/study-group',
-	'https://bevry.me/discord/dev': {
+	'https://bevry.me/discord/build': {
 		url: 'https://discord.gg/AGVSmdg',
+		redirect: 'temporary',
+	},
+	'https://bevry.me/discord/dev': 'https://bevry.me/discord/build',
+	'https://bevry.me/discord/study': {
+		url: 'https://discord.gg/NSnBk4g',
 		redirect: 'temporary',
 	},
 	'https://bevry.me/discord/meetings': {
