@@ -2222,6 +2222,11 @@ const links: Links = {
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Bevry-Study_supir#_luVKY',
 		description: 'Learn about Bevry Study, a Bevry project',
 	},
+	'https://bevry.me/projects/conversations': {
+		name: 'Bevry Conversations',
+		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py/Bevry-Conversations_suLwS#_lupGw',
+		description: 'Learn about Bevry Conversations, a Bevry project',
+	},
 	'https://bevry.me/projects/landing-kit': {
 		name: 'Digital Nomad Landing Kit',
 		url:
