@@ -2246,6 +2246,11 @@ const links: Links = {
 		url: 'https://coda.io/d/Bevrys-Projects_dgj0C_T-2Py',
 		description: 'Learn about the projects that Bevry is working on',
 	},
+	'https://bevry.me/v/cm': {
+		name: "Bevry's Video Anaylisis on the Christchurch Manifesto",
+		url: 'https://youtu.be/uYM42UR0hPU',
+	},
+	'https://bevry.me/cm': 'https://bevry.me/v/cm',
 	'https://bevry.me/youtube': {
 		name: 'Bevry Study Group on YouTube',
 		url: 'https://www.youtube.com/channel/UCPkobzBsAIjpItonUT7AU9Q',
