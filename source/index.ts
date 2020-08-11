@@ -55,6 +55,13 @@ const links: Links = {
 		color: '#FFCE00',
 		tags: ['referral', 'recommendation'],
 	},
+	'https://balupton.com/vessi': {
+		name: 'Vessi Footwear',
+		url: 'Https://fbuy.io/vessi/7r4yyb54',
+		description: 'Use Vessi Footwear to keep your feet dry while looking cool',
+		color: '#005864',
+		tags: ['referral', 'recommendation'],
+	},
 	'https://balupton.com/streamlabs': {
 		name: 'Streamlabs',
 		url: 'https://streamlabs.com/editor?promo=balupton-b5ee-10',
