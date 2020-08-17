@@ -2304,6 +2304,11 @@ const links: Links = {
 		url: 'https://bevry.me/youtube',
 		redirect: 'temporary',
 	},
+	'https://bevry.me/schedule': {
+		name: 'Bevry Schedule',
+		url: 'https://paper.dropbox.com/doc/Bevry-Schedule--A50CK797IlE7SsCZdEUlWhQqAQ-JnduDfifkrQ33YyWwUwOQ',
+		description: 'What Bevry has scheduled and what the Bevry Team members are working on'
+	},
 
 	//  bevry.me / tos
 	'https://bevry.me/tos': {
