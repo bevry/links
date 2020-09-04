@@ -55,6 +55,13 @@ const links: Links = {
 		color: '#FFCE00',
 		tags: ['referral', 'recommendation'],
 	},
+	'https://balupton.com/nextdns': {
+		name: 'NextDNS',
+		url: 'https://nextdns.io/?from=qjsjabek',
+		description: 'Use NextDNS as your DNS provider that supports Handshake decentralised domains and customisable content filtering',
+		color: '#007BFF',
+		tags: ['referral', 'recommendation'],
+	},
 	'https://balupton.com/vessi': {
 		name: 'Vessi Footwear',
 		url: 'Https://fbuy.io/vessi/7r4yyb54',
