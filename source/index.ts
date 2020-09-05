@@ -58,7 +58,8 @@ const links: Links = {
 	'https://balupton.com/nextdns': {
 		name: 'NextDNS',
 		url: 'https://nextdns.io/?from=qjsjabek',
-		description: 'Use NextDNS as your DNS provider that supports Handshake decentralised domains and customisable content filtering',
+		description:
+			'Use NextDNS as your DNS provider that supports Handshake decentralised domains and customisable content filtering',
 		color: '#007BFF',
 		tags: ['referral', 'recommendation'],
 	},
