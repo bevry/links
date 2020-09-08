@@ -2624,7 +2624,6 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/install': 'https://docpad.bevry.me/install',
-	'https://docpad.bevry.me/start': 'https://docpad.bevry.me/install',
 	'https://docpad.bevry.me/docs/start': 'https://docpad.bevry.me/install',
 	'https://docpad.bevry.me/troubleshoot': {
 		url: 'https://docpad.bevry.me/start/troubleshoot',
