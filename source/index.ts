@@ -2646,6 +2646,8 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/docs/showcase': 'https://docpad.bevry.me/showcase',
 	'https://docpad.bevry.me/skeletons': 'https://docpad.bevry.me/showcase',
+	'https://docpad.bevry.me/projects': 'https://docpad.bevry.me/showcase',
+	'https://docpad.bevry.me/docs/projects': 'https://docpad.bevry.me/showcase',
 	'https://docpad.bevry.me/docs/skeletons': 'https://docpad.bevry.me/skeletons',
 	'https://docpad.bevry.me/deploy': {
 		url: 'https://docpad.bevry.me/start/deploy',
