@@ -2499,6 +2499,158 @@ const links: Links = {
 		url: 'https://docpad.bevry.me/start/install',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/chat-guidelines': {
+		url: 'http://learn.bevry.me/community/chat-guidelines',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/chat-logs': {
+		url: 'https://botbot.me/freenode/docpad/',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/chat': {
+		url: 'https://discuss.bevry.me/tags/chat',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/support-channels': {
+		url: 'https://discuss.bevry.me/t/official-bevry-support-channels/63',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/issues': {
+		url: 'https://github.com/docpad/docpad/issues',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/bug-report': {
+		url: '/support-channels',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/forum': {
+		url: 'https://discuss.bevry.me/tags/docpad',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/stackoverflow': {
+		url: 'https://discuss.bevry.me/t/official-stack-overflow-support/61/3',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/donate': {
+		url: 'https://bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/tos': {
+		url: 'https://bevry.me/tos',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/terms': {
+		url: 'https://bevry.me/tos',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/privacy': {
+		url: 'https://bevry.me/privacy',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/github': {
+		url: 'https://github.com/docpad',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/twitter': {
+		url: 'https://twitter.com/docpad',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/reddit': {
+		url: 'https://www.reddit.com/r/docpad',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/trello': {
+		url: 'https://bevry.me/trello',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/gittip-community': {
+		url: 'https://docpad.bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/gittip': {
+		url: 'https://docpad.bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/gratipay-community': {
+		url: 'https://docpad.bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/gratipay': {
+		url: 'https://docpad.bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/flattr': {
+		url: 'https://docpad.bevry.me/donate',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/praise': {
+		url: 'https://twitter.com/docpad/favorites',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/growl': {
+		url: 'http://growl.info/downloads',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/plugins': {
+		url: 'https://docpad.bevry.me/docs/plugins',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/upgrade': {
+		url: 'https://docpad.bevry.me/docs/upgrade',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/install': {
+		url: 'https://docpad.bevry.me/docs/install',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/troubleshoot': {
+		url: 'https://docpad.bevry.me/docs/troubleshoot',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/partners': {
+		url: 'https://docpad.bevry.me/start/support#consulting-partners',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/get-started': {
+		url: 'https://docpad.bevry.me/docs/overview',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/license': {
+		url: 'https://github.com/docpad/docpad/blob/master/LICENSE.md#readme',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/changelog': {
+		url: 'https://github.com/docpad/docpad/blob/master/HISTORY.md#readme',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/changes': {
+		url: 'https://docpad.bevry.me/changelog',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/history': {
+		url: 'https://docpad.bevry.me/changelog',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/unstable-node': {
+		url: 'https://github.com/docpad/docpad/issues/725',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/render-early-via-include': {
+		url: 'https://github.com/docpad/docpad/issues/378',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/extension-not-rendering': {
+		url: 'https://github.com/docpad/docpad/issues/192',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/plugin-conventions': {
+		url: 'https://github.com/docpad/docpad/issues/313',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/plugin-uncompiled': {
+		url: 'https://github.com/docpad/docpad/issues/925',
+		redirect: 'permanent',
+	},
 	'https://docpad.bevry.me/docs/intro': {
 		url: 'https://docpad.bevry.me',
 		redirect: 'permanent',
@@ -2508,7 +2660,7 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/skeletons': {
-		url: 'https://docpad.bevry.me/community/showcase#skeletons',
+		url: 'https://docpad.bevry.me/community/showcase',
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/install': {
