@@ -2592,6 +2592,10 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/changes': 'https://docpad.bevry.me/changelog',
 	'https://docpad.bevry.me/history': 'https://docpad.bevry.me/changelog',
+	'https://docpad.bevry.me/id-overwrite': {
+		url: 'https://github.com/docpad/docpad/issues/742',
+		redirect: 'permanent',
+	},
 	'https://docpad.bevry.me/unstable-node': {
 		url: 'https://github.com/docpad/docpad/issues/725',
 		redirect: 'permanent',
