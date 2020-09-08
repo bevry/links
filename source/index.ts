@@ -2645,10 +2645,13 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/showcase': 'https://docpad.bevry.me/showcase',
-	'https://docpad.bevry.me/skeletons': 'https://docpad.bevry.me/showcase',
-	'https://docpad.bevry.me/projects': 'https://docpad.bevry.me/showcase',
-	'https://docpad.bevry.me/docs/projects': 'https://docpad.bevry.me/showcase',
-	'https://docpad.bevry.me/docs/skeletons': 'https://docpad.bevry.me/skeletons',
+	'https://docpad.bevry.me/projects': {
+		url: 'https://github.com/search?q=topic%3Adocpad-project&type=Repositories',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/skeletons': 'https://docpad.bevry.me/projects',
+	'https://docpad.bevry.me/docs/projects': 'https://docpad.bevry.me/projects',
+	'https://docpad.bevry.me/docs/skeletons': 'https://docpad.bevry.me/projects',
 	'https://docpad.bevry.me/deploy': {
 		url: 'https://docpad.bevry.me/start/deploy',
 		redirect: 'permanent',
