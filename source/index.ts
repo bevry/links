@@ -2539,6 +2539,10 @@ const links: Links = {
 		url: 'https://twitter.com/docpad',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/praise': {
+		url: 'https://twitter.com/DocPad/likes',
+		redirect: 'permanent',
+	},
 	'https://docpad.bevry.me/reddit': {
 		url: 'https://www.reddit.com/r/docpad',
 		redirect: 'permanent',
@@ -2559,7 +2563,6 @@ const links: Links = {
 	'https://docpad.bevry.me/gratipay-community': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gratipay': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/flattr': 'https://docpad.bevry.me/donate',
-	'https://docpad.bevry.me/praise': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/growl': {
 		url: 'http://growl.info/downloads',
 		redirect: 'permanent',
