@@ -2622,6 +2622,9 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/troubleshoot': 'https://docpad.bevry.me/troubleshoot',
+	'https://docpad.bevry.me/debug': 'https://docpad.bevry.me/troubleshoot',
+	'https://docpad.bevry.me/docs/debug': 'https://docpad.bevry.me/troubleshoot',
+	'https://docpad.bevry.me/core/debug': 'https://docpad.bevry.me/troubleshoot',
 	'https://docpad.bevry.me/overview': {
 		url: 'https://docpad.bevry.me/start/overview',
 		redirect: 'permanent',
@@ -2675,46 +2678,52 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/roadmap': 'https://docpad.bevry.me/roadmap',
-	'https://docpad.bevry.me/docs/api': {
+	'https://docpad.bevry.me/api': {
 		url: 'https://docpad.bevry.me/core/api',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/cli': {
+	'https://docpad.bevry.me/docs/api': 'https://docpad.bevry.me/api',
+	'https://docpad.bevry.me/cli': {
 		url: 'https://docpad.bevry.me/core/cli',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/config': {
+	'https://docpad.bevry.me/docs/cli': 'https://docpad.bevry.me/cli',
+	'https://docpad.bevry.me/config': {
 		url: 'https://docpad.bevry.me/core/config',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/debug': {
-		url: 'https://docpad.bevry.me/core/debug',
-		redirect: 'permanent',
-	},
-	'https://docpad.bevry.me/docs/events': {
+	'https://docpad.bevry.me/docs/config': 'https://docpad.bevry.me/config',
+	'https://docpad.bevry.me/events': {
 		url: 'https://docpad.bevry.me/core/events',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/meta-data': {
+	'https://docpad.bevry.me/docs/events': 'https://docpad.bevry.me/events',
+	'https://docpad.bevry.me/meta-data': {
 		url: 'https://docpad.bevry.me/core/meta-data',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/sequence': {
+	'https://docpad.bevry.me/docs/meta-data': 'https://docpad.bevry.me/meta-data',
+	'https://docpad.bevry.me/sequence': {
 		url: 'https://docpad.bevry.me/core/sequence',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/template-data': {
+	'https://docpad.bevry.me/docs/sequence': 'https://docpad.bevry.me/sequence',
+	'https://docpad.bevry.me/template-data': {
 		url: 'https://docpad.bevry.me/core/template-data',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/extend': {
+	'https://docpad.bevry.me/docs/template-data': 'https://docpad.bevry.me/template-data',
+	'https://docpad.bevry.me/extend': {
 		url: 'https://docpad.bevry.me/extend/extend',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/plugin-write': {
+	'https://docpad.bevry.me/docs/extend': 'https://docpad.bevry.me/extend',
+	'https://docpad.bevry.me/plugin-write': {
 		url: 'https://docpad.bevry.me/extend/plugin-write',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/docs/plugin-write': 'https://docpad.bevry.me/plugin-write',
+	'https://docpad.bevry.me/plugin/write': 'https://docpad.bevry.me/plugin-write',
 
 	// forum
 	'https://discuss.bevry.me/c/study/film-tv': {
