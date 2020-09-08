@@ -2507,7 +2507,6 @@ const links: Links = {
 		url: 'https://bevry.me/support',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/support-channels': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/bug-report': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/docs/support': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/stackoverflow': 'https://docpad.bevry.me/support',
