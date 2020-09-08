@@ -2552,7 +2552,7 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/donate': {
-		url: 'https://docpad.bevry.me/donate',
+		url: 'https://bevry.me/donate',
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/gittip-community': 'https://docpad.bevry.me/donate',
