@@ -2564,6 +2564,11 @@ const links: Links = {
 		url: 'http://growl.info/downloads',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/admin': {
+		url: 'https://docpad.bevry.me/community/plugins#admin-interfaces',
+		redirect: 'permanent',
+	},
+	'https://docpad.bevry.me/docs/admin': 'https://docpad.bevry.me/admin',
 	'https://docpad.bevry.me/plugins': {
 		url: 'https://docpad.bevry.me/community/plugins',
 		redirect: 'permanent',
