@@ -2508,6 +2508,7 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/bug-report': 'https://docpad.bevry.me/support',
+	'https://docpad.bevry.me/bug': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/docs/support': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/stackoverflow': 'https://docpad.bevry.me/support',
 	'https://docpad.bevry.me/issues': {
