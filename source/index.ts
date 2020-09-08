@@ -2492,7 +2492,7 @@ const links: Links = {
 
 	//  docpad
 	'https://docpad.bevry.me/chat-guidelines': {
-		url: 'http://learn.bevry.me/community/chat-guidelines',
+		url: 'https://bevry.me/support-guidelines',
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/chat-logs': {
@@ -2551,14 +2551,11 @@ const links: Links = {
 		url: 'https://bevry.me/trello',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/gittip-community': {
-		url: 'https://docpad.bevry.me/donate',
-		redirect: 'permanent',
-	},
 	'https://docpad.bevry.me/donate': {
 		url: 'https://docpad.bevry.me/donate',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/gittip-community': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gittip': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gratipay-community': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gratipay': 'https://docpad.bevry.me/donate',
@@ -2569,7 +2566,7 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/admin': {
 		url: 'https://docpad.bevry.me/community/plugins#admin-interfaces',
-		redirect: 'permanent',
+		redirect: 'temporary',
 	},
 	'https://docpad.bevry.me/docs/admin': 'https://docpad.bevry.me/admin',
 	'https://docpad.bevry.me/plugins': {
@@ -2584,11 +2581,11 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/license': {
 		url: 'https://github.com/docpad/docpad/blob/master/LICENSE.md#readme',
-		redirect: 'permanent',
+		redirect: 'temporary',
 	},
 	'https://docpad.bevry.me/changelog': {
 		url: 'https://github.com/docpad/docpad/blob/master/HISTORY.md#readme',
-		redirect: 'permanent',
+		redirect: 'temporary',
 	},
 	'https://docpad.bevry.me/changes': 'https://docpad.bevry.me/changelog',
 	'https://docpad.bevry.me/history': 'https://docpad.bevry.me/changelog',
@@ -2648,10 +2645,11 @@ const links: Links = {
 		redirect: 'permanent',
 	},
 	'https://docpad.bevry.me/docs/begin': 'https://docpad.bevry.me/begin',
-	'https://docpad.bevry.me/docs/intro': {
+	'https://docpad.bevry.me/intro': {
 		url: 'https://docpad.bevry.me',
 		redirect: 'permanent',
 	},
+	'https://docpad.bevry.me/docs/intro': 'https://docpad.bevry.me/intro',
 	'https://docpad.bevry.me/showcase': {
 		url: 'https://docpad.bevry.me/community/showcase',
 		redirect: 'permanent',
@@ -2659,7 +2657,7 @@ const links: Links = {
 	'https://docpad.bevry.me/docs/showcase': 'https://docpad.bevry.me/showcase',
 	'https://docpad.bevry.me/projects': {
 		url: 'https://github.com/search?q=topic%3Adocpad-project&type=Repositories',
-		redirect: 'permanent',
+		redirect: 'temporary',
 	},
 	'https://docpad.bevry.me/skeletons': 'https://docpad.bevry.me/projects',
 	'https://docpad.bevry.me/docs/projects': 'https://docpad.bevry.me/projects',
