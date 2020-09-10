@@ -730,7 +730,7 @@ const links: Links = {
 	},
 	'https://balupton.com/tradingview': {
 		name: 'TradingView',
-		url: 'http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=4529',
+		url: 'https://www.tradingview.com/chart?offer_id=10&aff_id=4529',
 		description: 'Use TradingView for all your trading insights',
 		color: '#3BB3E4',
 		tags: ['referral'],
