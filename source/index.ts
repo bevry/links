@@ -2154,7 +2154,7 @@ const links: Links = {
 	// balupton.com
 	'https://balupton.com/zoom': {
 		name: "Benjamin's Zoom Meeting Room",
-		url: 'https://zoom.us/j/9855647764',
+		url: 'https://zoom.us/j/9855647764?pwd=Mll2RWc0M3M4NzhnOTdIck5oVHNYZz09',
 	},
 	'https://balupton.com/wire': {
 		name: 'Wire',
