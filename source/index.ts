@@ -52,7 +52,7 @@ const links: Links = {
 	'https://balupton.com/melon': {
 		name: 'Melon',
 		url: 'https://melonapp.com?ref=balupton',
-		description: 'Use Melon as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
+		description: 'Use Melon as an alternative to Zoom, Google Meet, and OBS that supports streaming to multiple locations',
 		color: '#ff517b',
 		tags: ['referral'],
 	},
@@ -62,7 +62,7 @@ const links: Links = {
 		url: 'https://restream.io/join/4xozn',
 		description: 'Use Restream as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
 		color: '#000',
-		tags: ['referral'],
+		tags: ['referral', 'recommendation'],
 	},
 	'https://bevry.me/r/restream': 'https://balupton.com/restream',
 	'https://balupton.com/honeygain': {
