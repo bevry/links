@@ -48,6 +48,15 @@ const links: Links = {
 	'https://balupton.com/recommends': 'https://balupton.com/recommendations',
 	'https://balupton.com/recommend': 'https://balupton.com/recommendations',
 	'https://balupton.com/gear': 'https://balupton.com/recommendations',
+	// recommendations
+	'https://balupton.com/melon': {
+		name: 'Melon',
+		url: 'https://melonapp.com?ref=balupton',
+		description: 'Use Melon as a free alternative to Zoom and Google Meet that supports streaming',
+		color: '#ff517b',
+		tags: ['referral', 'recommendation'],
+	},
+	'https://bevry.me/r/melon': 'https://balupton.com/melon',
 	'https://balupton.com/honeygain': {
 		name: 'Honeygain',
 		url: 'https://r.honeygain.money/B57497FAA2',
