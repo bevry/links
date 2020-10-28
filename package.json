@@ -195,7 +195,6 @@
     "singleQuote": true
   },
   "boundation": {
-    "ltsNodeOnly": true,
     "desiredNodeOnly": true
   }
 }
