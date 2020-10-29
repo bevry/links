@@ -26,27 +26,27 @@ kava.suite('links', function (suite, test) {
 			// recurse
 			while ((destination = getLink(value))) {
 				if (destination === value) {
-					console.error({key, value, destination})
+					console.error({ key, value, destination })
 					throw new Error(`link [${key}] points to itself`)
 				}
 				value = destination
 			}
 			// check resolves to a full entry
 			if (typeof value === 'string') {
-				console.error({key, value})
+				console.error({ key, value })
 				throw new Error(
 					`link [${key}] did not resolve to a full entry with [${value}]`
 				)
 			}
 			// check has a valid url
 			if (!value.url || /^[a-zA-Z-]+$/.test(value.url)) {
-				console.error({key, value})
+				console.error({ key, value })
 				throw new Error(`link [${key}] results in invalid url [${value.url}]`)
 			}
 			// check there are no items after this that contains it
 			for (const other of keys.slice(index + 1)) {
 				if (other.startsWith(key)) {
-					console.error({key, value, other})
+					console.error({ key, value, other })
 					throw new Error(
 						`link [${key}] had an item later that contains it [${other}]`
 					)

@@ -52,7 +52,8 @@ const links: Links = {
 	'https://balupton.com/melon': {
 		name: 'Melon',
 		url: 'https://melonapp.com?ref=balupton',
-		description: 'Use Melon as an alternative to Zoom, Google Meet, and OBS that supports streaming to multiple locations',
+		description:
+			'Use Melon as an alternative to Zoom, Google Meet, and OBS that supports streaming to multiple locations',
 		color: '#ff517b',
 		tags: ['referral'],
 	},
@@ -60,7 +61,8 @@ const links: Links = {
 	'https://balupton.com/restream-studio': {
 		name: 'Restream Studio',
 		url: 'https://restream.io/studio?ref=4xozn',
-		description: 'Use Restream Studio as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
+		description:
+			'Use Restream Studio as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
 		color: '#000',
 		tags: ['referral', 'recommendation'],
 	},
@@ -68,7 +70,8 @@ const links: Links = {
 	'https://balupton.com/restream': {
 		name: 'Restream',
 		url: 'https://restream.io/join/4xozn',
-		description: 'Use Restream to broadcast your OBS, Zoom, or RTMP stream to multiple locations at the same time for free',
+		description:
+			'Use Restream to broadcast your OBS, Zoom, or RTMP stream to multiple locations at the same time for free',
 		color: '#000',
 		tags: ['referral', 'recommendation'],
 	},
@@ -2582,7 +2585,8 @@ const links: Links = {
 	},
 	'https://docpad.bevry.me/gittip-community': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gittip': 'https://docpad.bevry.me/donate',
-	'https://docpad.bevry.me/gratipay-community': 'https://docpad.bevry.me/donate',
+	'https://docpad.bevry.me/gratipay-community':
+		'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/gratipay': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/flattr': 'https://docpad.bevry.me/donate',
 	'https://docpad.bevry.me/growl': {
@@ -2654,7 +2658,8 @@ const links: Links = {
 		url: 'https://docpad.bevry.me/start/troubleshoot',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/troubleshoot': 'https://docpad.bevry.me/troubleshoot',
+	'https://docpad.bevry.me/docs/troubleshoot':
+		'https://docpad.bevry.me/troubleshoot',
 	'https://docpad.bevry.me/debug': 'https://docpad.bevry.me/troubleshoot',
 	'https://docpad.bevry.me/docs/debug': 'https://docpad.bevry.me/troubleshoot',
 	'https://docpad.bevry.me/core/debug': 'https://docpad.bevry.me/troubleshoot',
@@ -2700,18 +2705,22 @@ const links: Links = {
 		url: 'https://docpad.bevry.me/start/performance',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/performance': 'https://docpad.bevry.me/performance',
+	'https://docpad.bevry.me/docs/performance':
+		'https://docpad.bevry.me/performance',
 	'https://docpad.bevry.me/contribute': {
 		url: 'https://docpad.bevry.me/community/contribute',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/start/contribute': 'https://docpad.bevry.me/contribute',
-	'https://docpad.bevry.me/docs/contribute': 'https://docpad.bevry.me/contribute',
+	'https://docpad.bevry.me/start/contribute':
+		'https://docpad.bevry.me/contribute',
+	'https://docpad.bevry.me/docs/contribute':
+		'https://docpad.bevry.me/contribute',
 	'https://docpad.bevry.me/participate': {
 		url: 'https://docpad.bevry.me/community/participate',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/participate': 'https://docpad.bevry.me/participate',
+	'https://docpad.bevry.me/docs/participate':
+		'https://docpad.bevry.me/participate',
 	'https://docpad.bevry.me/roadmap': {
 		url: 'https://docpad.bevry.me/community/roadmap',
 		redirect: 'permanent',
@@ -2751,7 +2760,8 @@ const links: Links = {
 		url: 'https://docpad.bevry.me/core/template-data',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/template-data': 'https://docpad.bevry.me/template-data',
+	'https://docpad.bevry.me/docs/template-data':
+		'https://docpad.bevry.me/template-data',
 	'https://docpad.bevry.me/extend': {
 		url: 'https://docpad.bevry.me/extend/extend',
 		redirect: 'permanent',
@@ -2761,8 +2771,10 @@ const links: Links = {
 		url: 'https://docpad.bevry.me/extend/plugin-write',
 		redirect: 'permanent',
 	},
-	'https://docpad.bevry.me/docs/plugin-write': 'https://docpad.bevry.me/plugin-write',
-	'https://docpad.bevry.me/plugin/write': 'https://docpad.bevry.me/plugin-write',
+	'https://docpad.bevry.me/docs/plugin-write':
+		'https://docpad.bevry.me/plugin-write',
+	'https://docpad.bevry.me/plugin/write':
+		'https://docpad.bevry.me/plugin-write',
 
 	// forum
 	'https://discuss.bevry.me/c/study/film-tv': {
