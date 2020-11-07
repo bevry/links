@@ -60,7 +60,7 @@ const links: Links = {
 	'https://bevry.me/r/melon': 'https://balupton.com/melon',
 	'https://balupton.com/restream-studio': {
 		name: 'Restream Studio',
-		url: 'https://restream.io/studio?ref=4xozn',
+		url: 'https://restream.io/studio?ref=balupton',
 		description:
 			'Use Restream Studio as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
 		color: '#000',
@@ -68,7 +68,7 @@ const links: Links = {
 	},
 	'https://balupton.com/restream': {
 		name: 'Restream',
-		url: 'https://restream.io/join/4xozn',
+		url: 'https://restream.io/join/balupton',
 		description:
 			'Use Restream to broadcast your OBS, Zoom, or RTMP stream to multiple locations at the same time for free',
 		color: '#000',
