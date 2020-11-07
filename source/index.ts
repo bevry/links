@@ -66,7 +66,6 @@ const links: Links = {
 		color: '#000',
 		tags: ['referral', 'recommendation'],
 	},
-	'https://bevry.me/r/restream-studio': 'https://balupton.com/restream-studio',
 	'https://balupton.com/restream': {
 		name: 'Restream',
 		url: 'https://restream.io/join/4xozn',
@@ -75,7 +74,22 @@ const links: Links = {
 		color: '#000',
 		tags: ['referral', 'recommendation'],
 	},
-	'https://bevry.me/r/restream': 'https://balupton.com/restream',
+	'https://bevry.me/r/restream-studio': {
+		name: 'Restream Studio',
+		url: 'https://restream.io/studio?ref=nXwkP',
+		description:
+			'Use Restream Studio as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
+		color: '#000',
+		tags: ['referral', 'recommendation'],
+	},
+	'https://bevry.me/r/restream': {
+		name: 'Restream',
+		url: 'https://restream.io/join/nXwkP',
+		description:
+			'Use Restream to broadcast your OBS, Zoom, or RTMP stream to multiple locations at the same time for free',
+		color: '#000',
+		tags: ['referral', 'recommendation'],
+	},
 	'https://balupton.com/honeygain': {
 		name: 'Honeygain',
 		url: 'https://r.honeygain.money/B57497FAA2',
