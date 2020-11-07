@@ -76,7 +76,7 @@ const links: Links = {
 	},
 	'https://bevry.me/r/restream-studio': {
 		name: 'Restream Studio',
-		url: 'https://restream.io/studio?ref=nXwkP',
+		url: 'https://restream.io/studio?ref=bevry',
 		description:
 			'Use Restream Studio as a free alternative to Zoom, Google Meet, and OBS that supports free streaming to multiple locations',
 		color: '#000',
@@ -84,7 +84,7 @@ const links: Links = {
 	},
 	'https://bevry.me/r/restream': {
 		name: 'Restream',
-		url: 'https://restream.io/join/nXwkP',
+		url: 'https://restream.io/join/bevry',
 		description:
 			'Use Restream to broadcast your OBS, Zoom, or RTMP stream to multiple locations at the same time for free',
 		color: '#000',
