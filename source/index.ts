@@ -51,7 +51,7 @@ const links: Links = {
 	// actual
 	'https://balupton.com/adguard': {
 		name: 'AdGuard',
-		url: 'https://aff.adguard.com/?ref=balupton',
+		url: 'https://adguard.com/?aid=30345',
 		description:
 			'Use AdGuard to block advertising, even within Applications, and even at the DNS and VPN level',
 		color: '#67b279',
