@@ -1,0 +1,31 @@
+on: [push, pull_request]
+jobs:
+  custom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: 14
+
+      - run: npm run our:setup
+      - run: npm run our:compile
+      - run: npm run our:verify
+
+      - run: npm test
+        env:
+          SETTER_AUTH: ${{secrets.SETTER_AUTH}}
+
+      - run: npm run our:meta
+
+      - name: publish to npm
+        uses: bevry-actions/npm@v1.0.0
+        with:
+          npmAuthToken: ${{secrets.NPM_AUTH_TOKEN}}
+          npmBranchTag: 'master:next'
+
+      - name: publish to surge
+        uses: bevry-actions/surge@v1.0.3
+        with:
+          surgeLogin: ${{secrets.SURGE_LOGIN}}
+          surgeToken: ${{secrets.SURGE_TOKEN}}
