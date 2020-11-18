@@ -49,6 +49,15 @@ const links: Links = {
 	'https://balupton.com/recommend': 'https://balupton.com/recommendations',
 	'https://balupton.com/gear': 'https://balupton.com/recommendations',
 	// actual
+	'https://balupton.com/adguard/affiliate': {
+		name: 'AdGuard',
+		url: 'https://aff.adguard.com/?ref=balupton',
+		description:
+			'Use AdGuard Affiliate if you like AdGuard as much as I do',
+		color: '#67b279',
+		tags: ['referral', 'recommendation'],
+	},
+	'https://bevry.me/r/adguard/affiliate': 'https://balupton.com/adguard/affiliate',
 	'https://balupton.com/adguard': {
 		name: 'AdGuard',
 		url: 'https://adguard.com/?aid=30345',
