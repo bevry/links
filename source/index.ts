@@ -49,6 +49,15 @@ const links: Links = {
 	'https://balupton.com/recommend': 'https://balupton.com/recommendations',
 	'https://balupton.com/gear': 'https://balupton.com/recommendations',
 	// actual
+	'https://balupton.com/adguard': {
+		name: 'AdGuard',
+		url: 'https://aff.adguard.com/?ref=balupton',
+		description:
+			'Use AdGuard to block advertising, even within Applications, and even at the DNS and VPN level',
+		color: '#67b279',
+		tags: ['referral', 'recommendation'],
+	},
+	'https://bevry.me/r/adguard': 'https://balupton.com/adguard',
 	'https://balupton.com/melon': {
 		name: 'Melon',
 		url: 'https://melonapp.com?ref=balupton',
