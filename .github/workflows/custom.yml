@@ -1,3 +1,4 @@
+name: custom
 on: [push, pull_request]
 jobs:
   custom:
